@@ -1,0 +1,8 @@
+{"id":"1","text":"What is your current age?","schema": "number", "label_requirement": {"required":true}}
+{"id":"2","text":"What is your occupation?","schema": "radio", "choices": ["Employed", "Unemployed", "Student", "Retired", "Homemaker", "Self-employed", "Other"], "label_requirement": {"required":true}}
+{"id":"3","text":"What is your education level?","schema": "radio", "choices": ["Less than a high school diploma", "High school diploma or equivalent", "College degree", "Graduate degree", "Other"], "label_requirement": {"required":true}}
+{"id":"4","text":"What is your country of birth?","schema": "select", "use_predefined_labels": "country", "label_requirement": {"required":true}}
+{"id":"4","text":"Have you taken and passed the USMLE or a similar medical licensing examination","schema": "radio", "choices": ["Yes", "No", "Not applicable"], "label_requirement": {"required":true}}
+{"id":"5","text":"Were you already familar with the format and content of USMLE examination before joining this study?","schema": "radio", "choices": ["Yes", "No"], "label_requirement": {"required":true}}
+{"id":"6","text":"Have you worked with AI or natural language processing technologies in a medical context before?","schema": "radio", "choices": ["Yes", "No"], "label_requirement": {"required":true}}
+{"id":"7","text":" Are you currently practicing medicine, or have you previously practiced in a clinical setting?","schema": "radio", "choices": ["Yes", "No", "Not applicable"], "label_requirement": {"required":true}}

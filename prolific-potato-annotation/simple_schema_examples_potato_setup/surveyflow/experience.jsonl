@@ -1,0 +1,4 @@
+{"id":"1","text":"How satisfied do you feel about your experience participating our study?","schema": "radio", "choices": ["Not satisfied", "Satisfied", "Very satisfied"], "label_requirement": {"required":true}}
+{"id":"2","text":"How would you rate the annotation platform?","schema": "radio", "choices": ["Not satisfied", "Satisfied", "Very satisfied"], "label_requirement": {"required":true}}
+{"id":"3","text":"How would you rate the annotation guidelines?","schema": "radio", "choices": ["Very confusing", "Mostly confusing, but some parts are clear", "Satisfactory", "Mostly very clear, but some parts are confusing", "Very clear"], "label_requirement": {"required":true}}
+{"id":"4","text":"Please feel free to leave any comments about our study. If you give a poor score on any of the above points, please write in detail about the issue and suggestions for improvements","schema": "text", "label_requirement": {"required":true}}

@@ -1,0 +1,175 @@
+{
+    "port": 9001,
+
+    "server_name": "potato annotator",
+
+    "annotation_task_name": "Error-type annotation of GPT-4 responses to USMLE questions",
+
+    # Potato will write the annotation file for all annotations to this
+    # directory, as well as per-annotator output files and state information
+    # necessary to restart annotation.
+    "output_annotation_dir": "annotation_output/simple-span-annotation-llm/prolific-within-Nov28/",
+
+    # The output format for the all-annotator data. Allowed formats are:
+    # * jsonl
+    # * json (same output as jsonl)
+    # * csv
+    # * tsv
+    #
+    "output_annotation_format": "json", 
+
+    # If annotators are using a codebook, this will be linked at the top to the
+    # instance for easy access
+    "annotation_codebook_url": "https://bit.ly/pilot-annotation-guide",
+
+    "data_files": [
+       "data/prolific_pilot_data_new.json"
+    ],
+
+    "item_properties": {
+        "id_key": "id",
+        "text_key": "text",
+    },
+
+
+    "user_config": {
+
+      "allow_all_users": True,
+      
+      "users": [  ],
+    },
+
+    #list_as_text is used when the input text is actually a list of texts, usually used for best-worst-scaling or dialogue analysis
+    "list_as_text": {
+      "text_list_prefix_type": 'None', #whether automatically insert a prefix for each line, currently supporting 'number', 'alphabet', 'number'
+      "horizontal": True,
+    },
+
+    #defining the ways annotators entering the annotation system
+    #"login": {
+    #  "type": 'url_direct',    #can be 'password' or 'url_direct'
+    #  "url_argument": 'PROLIFIC_PID' # when the login type is set to 'url_direct', 'url_argument' must be setup for a direct url argument login
+    #},
+
+    #the jumping-to-id function will be disabled if "jumping_to_id_disabled" is True
+    "jumping_to_id_disabled": True,
+
+    #the navigation bar will be hidden to the annotators if "hide_navbar" is True
+    "hide_navbar": True,
+    
+    # define the surveyflow of the system
+    "surveyflow": {
+       "on": True,
+       "order": ['pre_annotation', 'post_annotation'],
+       "pre_annotation": [],
+       "post_annotation": ['surveyflow/experience.jsonl', 'surveyflow/demographics.jsonl', 'surveyflow/end-finalpilot-within.jsonl'],
+       "testing": [],
+    },
+
+    "automatic_assignment": {
+      #whether do automatic task assignment for annotators, default False.
+      "on": True,
+      "output_filename": 'task_assignment.json',
+      "sampling_strategy": 'random',
+      "labels_per_instance": 5,
+      "instance_per_annotator": 20, # change to 20 for the pilot study
+      "test_question_per_annotator": 0, # you must set up the test question in surveyflow to use this function
+      
+      "users": [ ],
+      },
+
+
+    # How many seconds do you want the annotators spend on each instance, after
+    # that, an alert will be sent per alert_time_each_instance seconds.
+    # total time for entire study is 100 minutes which is equal to 6000 seconds
+    "alert_time_each_instance": 6000,
+    "horizontal_key_bindings": true,
+    "annotation_schemes": [      
+        {
+            "annotation_type": "highlight",
+            "name": "Error category", 
+            "description": "First select the error category by ticking the checkbox and then highlight the span corresponding to the error ONLY WITHIN the GPT-4 response. You can select more than one label for a given GPT-4 response; please repeat the same step as above: tick the label and then select the span. For the non-error categories such as \"Reasonable response by GPT-4\" and \"Cannot pick any category\", please select any sentence in th GPT-4 response. However, you cannot select any other error category, once you have selected a non-error category.  Please read the \"Annotation guidelines\" and \"Youtube tutorial\" thoroughly before proceeding with the annotation.",
+            "labels": [
+            { "name": "Unsupported medical claim",
+              "tooltip": "One or multiple claims in the model's answer are not supported by proper evidence from textbooks or other online knowledge sources.",
+              "key_value": '1'
+            },
+            {
+              "name": "Non-medical factual error",
+              "tooltip": "A statement in the explanations of the answer is factually wrong (e.g., 1+1=3). These involve non-medical facts and, include computational and terminology errors and can be reliably annotated by a non-medical expert.",
+              "key_value": '2'
+            },
+            { "name": "Sticking with the wrong diagnosis",
+              "tooltip": "The model confidently states its (wrong) answer early in the answer. Its reasoning when explaining this choice is sound and factually reasonable, with regards to the diagnosis, but the model still makes the wrong choice instead of correcting it based on its explanations.",
+              "key_value": '3'
+            },
+
+            { "name": "Incorrect or vague conclusion",
+              "tooltip": "The explanations given by the model are factually correct and support the proposed answer, but the statements concluding the correctness of option(s) are not definitive.",
+              "key_value": '4'
+            },
+            { "name": "Ignore missing information",
+              "tooltip": "The model recognizes that a critical piece of information is missing that would be needed to answer the question (e.g., a missing CT scan) and states so. Nevertheless, it continues to try and answer the question with incomplete information. Another scenario is when it does not recognize (mention) that a resource mentioned in the question is missing.",
+              "key_value": '5'
+            },
+            { "name": "Incorrect understanding of the task",
+              "tooltip": "The model did not choose a single option as the correct answer; instead, it either considers multiple answers to be correct (or most likely), states all options are wrong, or does not decide overall. Another scenario is when the response does not contain any explanation as to why the other options are wrong.",
+              "key_value": '6'
+            },
+            { "name": "Hallucination of information",
+              "tooltip": " The model makes up some information (e.g., a symptom not stated in the question) to justify why an option is incorrect.",
+              "key_value": '7'
+            },
+            { "name": "Reasonable response by GPT-4",
+              "tooltip": "You can select this option if you find the explanation provided by GPT-4 reasonable and the explanation does not have incorrect facts or flawed reasoning. Since GPT-4 selects the incorrect option, this means that the answer by GPT-4 is also a potential or more medically reasonable answer.",
+              "key_value": '8'
+            },
+            { "name": "Cannot pick any error category",
+              "tooltip": "You can select this option when you find certain flaws in the facts or reasoning of GPT-4 and are not fully convinced with the GPT-4 response. However, you are also not able to assign the GPT-4 response to any of the error categories.
+",
+              "key_value": '9'
+            },
+
+            ],
+
+            # If true, the field will have an optional text box the user can
+            #'has_free_response': {
+            #  "instruction": 'Comments (optional):',
+            #},
+
+            #"displaying_score": True,
+
+            # adding requirements for labels, when "required" is True, the annotators will be asked to finish the current instance to proceed
+            "label_requirement": {"required":True},
+
+            # If true, numbers [1-len(labels)] will be bound to each
+            # label. Highlight selection annotations with more than 10 are not supported
+            # with this simple keybinding and will need to use the full item
+            # specification to bind all labels to keys.
+            #"sequential_key_binding": True,            
+        },       
+    ],
+
+    # The html that changes the visualiztation for your task. Change this file
+    # to influence the layout and description of your task. This is not a full
+    # HTML page, just the piece that does lays out your task's pieces
+    # you may use templates in our lib, if you want to use your own template,
+    # please replace the string as a path to the template
+    "html_layout": "default",
+
+    # The core UI files for Potato. You should not need to change these normally.
+    #
+    # Exceptions to this might include:
+    # 1) You want to add custom CSS/fonts to style your task
+    # 2) Your layout requires additional JS/assets to render
+    # 3) You want to support additional keybinding magic
+    #
+    # if you want to use your own template,
+    # please replace the string as a path to the template
+    "base_html_template": "default",
+    "header_file": "default",
+
+    # This is where the actual HTML files will be generated
+    "site_dir": "default"
+
+}
