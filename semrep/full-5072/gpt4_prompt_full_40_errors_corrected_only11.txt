@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SemRepAnnotation PUBLIC "-//NLM//DTD SemRep Output//EN" "http://semrep.nlm.nih.gov/DTD/SemRepXML_v1.8.dtd">
+<SemRepAnnotation>
+ <Document id="Dtext_000N_99869" text="ERROR [3609]: USMLE question: A 17-year-old boy comes to the physician for a follow-up visit. Two days ago, he had a routine health maintenance examination that showed 3+ proteinuria on urine dipstick testing. During the initial routine examination, the patient reported feeling well, apart from being exhausted from his day at work. He had an upper respiratory infection 1 month ago, which resolved spontaneously within 5 days of onset. He has no history of serious illness. He works as an intern at a shooting range, where he does not usually use appropriate hearing protection. Today, he appears tired and complains about the early morning doctor&#39;s appointment. He is 170 cm (5 ft 7 in) tall and weighs 81.5 kg (180 lb); BMI is 28 kg/m2. His temperature is 37&#194;&#176;C (98.6&#194;&#176;F), pulse is 72/min, and blood pressure is 118/70 mm Hg. Examination shows facial acne. There is mild sensorineural hearing loss bilaterally. The remainder of the examination shows no abnormalities. Laboratory studies show: Serum Urea 8 mg/dL Creatinine 1.0 mg/dL Urine Glucose negative Protein 1+ Blood negative Nitrite negative Leukocytes negative pH 6.0 Specific gravity 1.005 Which of the following is the most likely explanation for this patient&#39;s findings?&quot; Option: {&#39;A&#39;: &#39;Standing for long periods of time&#39;, &#39;B&#39;: &#39;Subepithelial immune complex depositions&#39;, &#39;C&#39;: &#39;Increased production of low molecular weight proteins&#39;, &#39;D&#39;: &#39;Loss of negative charge on the glomerular basement membrane&#39;, &#39;E&#39;: &#39;Splitting of the glomerular basement membrane&#39;} Please explain your answer and why the other options are wrong" >
+ <Utterance id="Dtext_000N_99869.tx.1" section="tx" number="1" begin="0" end="94" text="ERROR [3609]: USMLE question: A 17-year-old boy comes to the physician for a follow-up visit.">
+  <Entity id="Dtext_000N_99869.E1" cui="C0743559" name="error" semtypes="qlco" text="ERROR" score="1000" negated="false" begin="0" end="5" />
+  <Entity id="Dtext_000N_99869.E2" cui="C0439234" name="year" semtypes="tmco" text="year" score="775" negated="false" begin="35" end="39" />
+  <Entity id="Dtext_000N_99869.E3" cui="C0580836" name="Old" semtypes="tmco" text="old" score="775" negated="false" begin="40" end="43" />
+  <Entity id="Dtext_000N_99869.E4" cui="C0870221" name="Boys" semtypes="aggp" text="boy" score="775" negated="false" begin="44" end="47" />
+  <Entity id="Dtext_000N_99869.E5" cui="C0031831" name="Physicians" semtypes="prog" text="physician" score="1000" negated="false" begin="61" end="70" />
+  <Entity id="Dtext_000N_99869.E6" cui="C0589121" name="Follow-up visit" semtypes="hlca" text="follow-up visit" score="1000" negated="false" begin="77" end="92" />
+ </Utterance>
+ <Utterance id="Dtext_000N_99869.tx.2" section="tx" number="2" begin="94" end="210" text="Two days ago, he had a routine health maintenance examination that showed 3+ proteinuria on urine dipstick testing.">
+  <Entity id="Dtext_000N_99869.E7" cui="C0205448" name="Two" semtypes="qnco" text="Two" score="790" negated="false" begin="94" end="97" />
+  <Entity id="Dtext_000N_99869.E8" cui="C0439228" name="day" semtypes="tmco" text="days" score="790" negated="false" begin="98" end="102" />
+  <Entity id="Dtext_000N_99869.E9" cui="C0205547" name="Routine" semtypes="qlco" text="routine" score="861" negated="false" begin="117" end="124" />
+  <Entity id="Dtext_000N_99869.E10" cui="C0262500" name="Health maintenance" semtypes="hlca" text="health maintenance" score="861" negated="false" begin="125" end="143" />
+  <Entity id="Dtext_000N_99869.E11" cui="C4321457" name="Examination" semtypes="acty" text="examination" score="861" negated="false" begin="144" end="155" />
+  <Entity id="Dtext_000N_99869.E12" cui="C0033687" name="Proteinuria" semtypes="fndg" text="proteinuria" score="861" negated="false" begin="171" end="182" />
+  <Entity id="Dtext_000N_99869.E13" cui="C1160927" name="urine dip stick" semtypes="medd" text="urine dipstick" score="916" negated="false" begin="186" end="200" />
+  <Entity id="Dtext_000N_99869.E14" cui="C0039593" name="Testing" semtypes="ftcn" text="testing" score="916" negated="false" begin="201" end="208" />
+ </Utterance>
+ <Utterance id="Dtext_000N_99869.tx.3" section="tx" number="3" begin="210" end="334" text="During the initial routine examination, the patient reported feeling well, apart from being exhausted from his day at work.">
+  <Entity id="Dtext_000N_99869.E15" cui="C0205265" name="Initially" semtypes="tmco" text="initial" score="851" negated="false" begin="221" end="228" />
+  <Entity id="Dtext_000N_99869.E16" cui="C0205547" name="Routine" semtypes="qlco" text="routine" score="851" negated="false" begin="229" end="236" />
+  <Entity id="Dtext_000N_99869.E17" cui="C4321457" name="Examination" semtypes="acty" text="examination" score="851" negated="false" begin="237" end="248" />
+  <Entity id="Dtext_000N_99869.E18" cui="C0030705" name="Patients" semtypes="podg" text="patient" score="1000" negated="false" begin="254" end="261" />
+  <Entity id="Dtext_000N_99869.E19" cui="C0205170" name="Good" semtypes="qlco" text="well" score="1000" negated="false" begin="279" end="283" />
+  <Entity id="Dtext_000N_99869.E20" cui="C0332173" name="Daily" semtypes="tmco" text="day" score="1000" negated="false" begin="321" end="324" />
+  <Entity id="Dtext_000N_99869.E21" cui="C0043227" name="Work" semtypes="ocac" text="work" score="1000" negated="false" begin="328" end="332" />
+ </Utterance>
+ <Utterance id="Dtext_000N_99869.tx.4" section="tx" number="4" begin="334" end="438" text="He had an upper respiratory infection 1 month ago, which resolved spontaneously within 5 days of onset.">
+  <Entity id="Dtext_000N_99869.E22" cui="C0041912" name="Upper Respiratory Infections" semtypes="dsyn" text="upper respiratory infection" score="817" negated="false" begin="344" end="371" />
+  <Entity id="Dtext_000N_99869.E23" cui="C0332177" name="Monthly (qualifier value)" semtypes="tmco" text="month" score="817" negated="false" begin="374" end="379" />
+  <Entity id="Dtext_000N_99869.E24" cui="C1442466" name="5 Days" semtypes="tmco" text="5 days" score="1000" negated="false" begin="421" end="427" />
+ </Utterance>
+ <Utterance id="Dtext_000N_99869.tx.5" section="tx" number="5" begin="438" end="476" text="He has no history of serious illness.">
+  <Entity id="Dtext_000N_99869.E25" cui="C0019664" name="History" semtypes="ocdi" text="history" score="1000" negated="false" begin="448" end="455" />
+  <Entity id="Dtext_000N_99869.E26" cui="C0205404" name="Serious" semtypes="qlco" text="serious" score="694" negated="false" begin="459" end="466" />
+ </Utterance>
+ <Utterance id="Dtext_000N_99869.tx.6" section="tx" number="6" begin="476" end="581" text="He works as an intern at a shooting range, where he does not usually use appropriate hearing protection.">
+  <Entity id="Dtext_000N_99869.E27" cui="C1144859" name="Intern" semtypes="prog" text="intern" score="1000" negated="false" begin="491" end="497" />
+  <Entity id="Dtext_000N_99869.E28" cui="C1514721" name="Range" semtypes="qnco" text="range" score="861" negated="false" begin="512" end="517" />
+  <Entity id="Dtext_000N_99869.E29" cui="C1518422" name="Negation" semtypes="ftcn" text="not" score="1000" negated="false" begin="533" end="536" />
+  <Entity id="Dtext_000N_99869.E30" cui="C3538928" name="Usual" semtypes="qlco" text="usually" score="1000" negated="false" begin="537" end="544" />
+  <Entity id="Dtext_000N_99869.E31" cui="C1548787" name="Appropriate" semtypes="qlco" text="appropriate" score="851" negated="false" begin="549" end="560" />
+  <Entity id="Dtext_000N_99869.E32" cui="C0018767" name="Hearing" semtypes="phsf" text="hearing" score="851" negated="false" begin="561" end="568" />
+  <Entity id="Dtext_000N_99869.E33" cui="C1545588" name="Protection" semtypes="fndg" text="protection" score="851" negated="false" begin="569" end="579" />
+ </Utterance>
+ <Utterance id="Dtext_000N_99869.tx.7" section="tx" number="7" begin="581" end="665" text="Today, he appears tired and complains about the early morning doctor&#39;s appointment.">
+  <Entity id="Dtext_000N_99869.E34" cui="C0310367" name="Today" semtypes="antb,orch" text="Today" score="1000" negated="false" begin="581" end="586" />
+  <Entity id="Dtext_000N_99869.E35" cui="C0015672" name="Fatigue" semtypes="sosy" text="tired" score="1000" negated="false" begin="599" end="604" />
+  <Entity id="Dtext_000N_99869.E36" cui="C1279919" name="Early" semtypes="tmco" text="early" score="775" negated="false" begin="629" end="634" />
+  <Entity id="Dtext_000N_99869.E37" cui="C0332170" name="Morning" semtypes="tmco" text="morning" score="775" negated="false" begin="635" end="642" />
+  <Entity id="Dtext_000N_99869.E38" cui="C0003629" name="Appointments" semtypes="tmco" text="appointment" score="775" negated="false" begin="652" end="663" />
+ </Utterance>
+ <Utterance id="Dtext_000N_99869.tx.8" section="tx" number="8" begin="665" end="741" text="He is 170 cm (5 ft 7 in) tall and weighs 81.5 kg (180 lb); BMI is 28 kg/m2.">
+  <Entity id="Dtext_000N_99869.E39" cui="C0023493" name="Adult T-Cell Lymphoma/Leukemia" semtypes="neop" text="tall" score="1000" negated="false" begin="690" end="694" />
+  <Entity id="Dtext_000N_99869.E40" cui="C4517884" name="81" semtypes="qnco" text="81" score="802" negated="false" begin="706" end="708" />
+  <Entity id="Dtext_000N_99869.E41" cui="C0578022" name="Finding of body mass index" semtypes="fndg" text="BMI" score="1000" negated="false" begin="724" end="727" />
+  <Entity id="Dtext_000N_99869.E42" cui="C0456689" name="Kilogram Per Square Meter" semtypes="qnco" text="kg/m2" score="901" negated="false" begin="734" end="739" />
+ </Utterance>
+ <Utterance id="Dtext_000N_99869.tx.9" section="tx" number="9" begin="741" end="830" text="His temperature is 37&#194;&#176;C (98.6&#194;&#176;F), pulse is 72/min, and blood pressure is 118/70 mm Hg.">
+  <Entity id="Dtext_000N_99869.E43" cui="C0039476" name="Temperature" semtypes="qnco" text="temperature" score="1000" negated="false" begin="745" end="756" />
+  <Entity id="Dtext_000N_99869.E44" cui="C0702093" name="Per Minute" semtypes="tmco" text="min" score="888" negated="false" begin="789" end="792" />
+  <Entity id="Dtext_000N_99869.E45" cui="C0005823" name="Blood Pressure" semtypes="orgf" text="blood pressure" score="1000" negated="false" begin="798" end="812" />
+  <Entity id="Dtext_000N_99869.E46" cui="C0439475" name="mmHg" semtypes="qnco" text="mm Hg" score="812" negated="false" begin="823" end="828" />
+ </Utterance>
+ <Utterance id="Dtext_000N_99869.tx.10" section="tx" number="10" begin="830" end="861" text="Examination shows facial acne.">
+  <Entity id="Dtext_000N_99869.E47" cui="C4321457" name="Examination" semtypes="acty" text="Examination" score="1000" negated="false" begin="830" end="841" />
+  <Entity id="Dtext_000N_99869.E48" cui="C0015450" name="Face" semtypes="blor" text="facial" score="888" negated="false" begin="848" end="854" />
+  <Entity id="Dtext_000N_99869.E49" cui="C0702166" name="Acne" semtypes="dsyn" text="acne" score="888" negated="false" begin="855" end="859" />
+  <Predication id="Dtext_000N_99869.P1" negated="false" inferred="false">
+   <Subject maxDist="0" dist="0" entityID="Dtext_000N_99869.E48" relSemType="blor" />
+   <Predicate type="LOCATION_OF" indicatorType="MOD_HEAD" begin="848" end="859" />
+   <Object maxDist="0" dist="0" entityID="Dtext_000N_99869.E49" relSemType="dsyn" />
+  </Predication>
+ </Utterance>
+ <Utterance id="Dtext_000N_99869.tx.11" section="tx" number="11" begin="861" end="915" text="There is mild sensorineural hearing loss bilaterally.">
+  <Entity id="Dtext_000N_99869.E50" cui="C4228074" name="Hearing loss, sensorineural, mild" semtypes="fndg" text="mild sensorineural hearing loss" score="937" negated="false" begin="870" end="901" />
+ </Utterance>
+ <Utterance id="Dtext_000N_99869.tx.12" section="tx" number="12" begin="915" end="972" text="The remainder of the examination shows no abnormalities.">
+  <Entity id="Dtext_000N_99869.E51" cui="C4321457" name="Examination" semtypes="acty" text="examination" score="1000" negated="false" begin="936" end="947" />
+ </Utterance>
+ <Utterance id="Dtext_000N_99869.tx.13" section="tx" number="13" begin="972" end="1237" text="Laboratory studies show: Serum Urea 8 mg/dL Creatinine 1.0 mg/dL Urine Glucose negative Protein 1+ Blood negative Nitrite negative Leukocytes negative pH 6.0 Specific gravity 1.005 Which of the following is the most likely explanation for this patient&#39;s findings?&quot;">
+  <Entity id="Dtext_000N_99869.E52" cui="C0681827" name="laboratory studies" semtypes="lbpr" text="Laboratory studies" score="1000" negated="false" begin="972" end="990" />
+  <Entity id="Dtext_000N_99869.E53" cui="C0856666" name="serum urea" semtypes="lbpr" text="Serum Urea" score="701" negated="false" begin="997" end="1007" />
+  <Entity id="Dtext_000N_99869.E54" cui="C0439269" name="mg/dL" semtypes="qnco" text="mg/dL" score="701" negated="false" begin="1010" end="1015" />
+  <Entity id="Dtext_000N_99869.E55" cui="C0010294" name="Creatinine" semtypes="bacs,orch" text="Creatinine" score="701" negated="false" begin="1016" end="1026" />
+  <Entity id="Dtext_000N_99869.E56" cui="C4517875" name="8.1" semtypes="qnco" text="8 mg/dL Creatinine 1" score="701" negated="false" begin="1008" end="1028" />
+  <Entity id="Dtext_000N_99869.E57" cui="C0205160" name="Negative" semtypes="fndg" text="negative" score="701" negated="false" begin="1051" end="1059" />
+  <Entity id="Dtext_000N_99869.E58" cui="C0087044" name="Synapsin I" semtypes="aapp,bacs" text="Protein 1" score="701" negated="false" begin="1060" end="1069" />
+  <Entity id="Dtext_000N_99869.E59" cui="C0005802" name="Blood Glucose" semtypes="orch" text="Glucose negative Protein 1+ Blood" score="701" negated="false" begin="1043" end="1076" />
+  <Entity id="Dtext_000N_99869.E60" cui="C0580333" name="Urine nitrite" semtypes="lbpr" text="Urine Glucose negative Protein 1+ Blood negative Nitrite" score="701" negated="false" begin="1037" end="1093" />
+  <Entity id="Dtext_000N_99869.E61" cui="C0023516" name="Leukocytes" semtypes="cell" text="Leukocytes" score="701" negated="false" begin="1103" end="1113" />
+  <Entity id="Dtext_000N_99869.E62" cui="C0037786" name="Specific Gravity" semtypes="qnco" text="Specific gravity" score="701" negated="false" begin="1130" end="1146" />
+  <Entity id="Dtext_000N_99869.E63" cui="C4517389" name="0.005" semtypes="qnco" text="0 Specific gravity 1.005" score="701" negated="false" begin="1128" end="1152" />
+  <Entity id="Dtext_000N_99869.E64" cui="C0231290" name="Status post" semtypes="tmco" text="following" score="1000" negated="false" begin="1166" end="1175" />
+  <Entity id="Dtext_000N_99869.E65" cui="C0750501" name="most likely" semtypes="idcn" text="most likely" score="901" negated="false" begin="1183" end="1194" />
+  <Entity id="Dtext_000N_99869.E66" cui="C0681841" name="explanation" semtypes="inpr" text="explanation" score="901" negated="false" begin="1195" end="1206" />
+  <Entity id="Dtext_000N_99869.E67" cui="C2926606" name="Procedure findings:Finding:Point in time:^Patient:Narrative" semtypes="clna" text="findings" score="861" negated="false" begin="1226" end="1234" />
+ </Utterance>
+ <Utterance id="Dtext_000N_99869.tx.14" section="tx" number="14" begin="1237" end="1583" text="Option: {&#39;A&#39;: &#39;Standing for long periods of time&#39;, &#39;B&#39;: &#39;Subepithelial immune complex depositions&#39;, &#39;C&#39;: &#39;Increased production of low molecular weight proteins&#39;, &#39;D&#39;: &#39;Loss of negative charge on the glomerular basement membrane&#39;, &#39;E&#39;: &#39;Splitting of the glomerular basement membrane&#39;} Please explain your answer and why the other options are wrong">
+  <Entity id="Dtext_000N_99869.E68" cui="C1518601" name="Options" semtypes="ftcn" text="Option" score="1000" negated="false" begin="1237" end="1243" />
+  <Entity id="Dtext_000N_99869.E69" cui="C0205166" name="Long" semtypes="qlco" text="long" score="872" negated="false" begin="1265" end="1269" />
+  <Entity id="Dtext_000N_99869.E70" cui="C0439531" name="per period (qualifier value)" semtypes="tmco" text="periods" score="872" negated="false" begin="1270" end="1277" />
+  <Entity id="Dtext_000N_99869.E71" cui="C0040223" name="Time" semtypes="tmco" text="time" score="1000" negated="false" begin="1281" end="1285" />
+  <Entity id="Dtext_000N_99869.E72" cui="C4228838" name="Immune complex deposition" semtypes="fndg" text="immune complex depositions" score="906" negated="false" begin="1308" end="1334" />
+  <Entity id="Dtext_000N_99869.E73" cui="C0205217" name="Increased" semtypes="qnco" text="Increased" score="888" negated="false" begin="1343" end="1352" />
+  <Entity id="Dtext_000N_99869.E74" cui="C0033268" name="production" semtypes="ocac" text="production" score="888" negated="false" begin="1353" end="1363" />
+  <Entity id="Dtext_000N_99869.E75" cui="C0026385" name="Molecular Weight" semtypes="qnco" text="molecular weight" score="877" negated="false" begin="1371" end="1387" />
+  <Entity id="Dtext_000N_99869.E76" cui="C0242972" name="Diet, Protein-Restricted" semtypes="topp" text="low molecular weight proteins" score="877" negated="false" begin="1367" end="1396" />
+  <Entity id="Dtext_000N_99869.E77" cui="C1517945" name="Loss" semtypes="qnco" text="Loss" score="1000" negated="false" begin="1405" end="1409" />
+  <Entity id="Dtext_000N_99869.E78" cui="C2825491" name="Negative Charge" semtypes="qlco" text="negative charge" score="1000" negated="false" begin="1413" end="1428" />
+  <Entity id="Dtext_000N_99869.E79" cui="C0599297" name="Glomerular Basement Membrane" semtypes="bpoc" text="glomerular basement membrane" score="1000" negated="false" begin="1436" end="1464" />
+  <Entity id="Dtext_000N_99869.E80" cui="C0599297" name="Glomerular Basement Membrane" semtypes="bpoc" text="glomerular basement membrane" score="1000" negated="false" begin="1490" end="1518" />
+  <Entity id="Dtext_000N_99869.E81" cui="C1706817" name="Response (statement)" semtypes="inpr" text="answer" score="1000" negated="false" begin="1541" end="1547" />
+  <Entity id="Dtext_000N_99869.E82" cui="C1518601" name="Options" semtypes="ftcn" text="options" score="1000" negated="false" begin="1566" end="1573" />
+  <Entity id="Dtext_000N_99869.E83" cui="C3827420" name="Wrong" semtypes="qlco" text="wrong" score="1000" negated="false" begin="1578" end="1583" />
+  <Predication id="Dtext_000N_99869.P2" negated="false" inferred="false">
+   <Subject maxDist="6" dist="1" entityID="Dtext_000N_99869.E79" relSemType="bpoc" />
+   <Predicate type="LOCATION_OF" indicatorType="PREP" begin="1429" end="1431" />
+   <Object maxDist="12" dist="7" entityID="Dtext_000N_99869.E72" relSemType="fndg" />
+  </Predication>
+ </Utterance>
+</Document>
+</SemRepAnnotation>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SemRepAnnotation PUBLIC "-//NLM//DTD SemRep Output//EN" "http://semrep.nlm.nih.gov/DTD/SemRepXML_v1.8.dtd">
+<SemRepAnnotation>
+ <Document id="Dtext_000N_130437" text="ERROR [3668]: USMLE question: A previously healthy 6-year-old boy is brought to the physician because of a 3-day history of progressive rash. The rash started on his face and now involves the entire body. For the past week, he has had a cough and a runny nose. He is visiting from the Philippines with his family. He is in first grade and spends his afternoons at an after-school child care program. Immunization records are not available. His temperature is 39.5&#194;&#176;C (103&#194;&#176;F), pulse is 115/min, and blood pressure is 105/66 mm Hg. Examination shows generalized lymphadenopathy. There is an erythematous maculopapular, blanching, and partially confluent exanthem on his entire body. The remainder of the examination shows no abnormalities. Which of the following is most likely to confirm the diagnosis? Option: {&#39;A&#39;: &#39;Rapid plasma reagin&#39;, &#39;B&#39;: &#39;Tzanck smear&#39;, &#39;C&#39;: &#39;Measles-specific IgM antibodies&#39;, &#39;D&#39;: &#39;Rapid antigen detection testing&#39;, &#39;E&#39;: &#39;Monospot test&#39;} Please explain your answer and why the other options are wrong" >
+ <Utterance id="Dtext_000N_130437.tx.1" section="tx" number="1" begin="0" end="142" text="ERROR [3668]: USMLE question: A previously healthy 6-year-old boy is brought to the physician because of a 3-day history of progressive rash.">
+  <Entity id="Dtext_000N_130437.E1" cui="C0743559" name="error" semtypes="qlco" text="ERROR" score="1000" negated="false" begin="0" end="5" />
+  <Entity id="Dtext_000N_130437.E2" cui="C3898900" name="Healthy" semtypes="qlco" text="healthy" score="734" negated="false" begin="43" end="50" />
+  <Entity id="Dtext_000N_130437.E3" cui="C0439234" name="year" semtypes="tmco" text="year" score="734" negated="false" begin="53" end="57" />
+  <Entity id="Dtext_000N_130437.E4" cui="C0580836" name="Old" semtypes="tmco" text="old" score="734" negated="false" begin="58" end="61" />
+  <Entity id="Dtext_000N_130437.E5" cui="C0870221" name="Boys" semtypes="aggp" text="boy" score="734" negated="false" begin="62" end="65" />
+  <Entity id="Dtext_000N_130437.E6" cui="C0031831" name="Physicians" semtypes="prog" text="physician" score="1000" negated="false" begin="84" end="93" />
+  <Entity id="Dtext_000N_130437.E7" cui="C0332173" name="Daily" semtypes="tmco" text="day" score="790" negated="false" begin="109" end="112" />
+  <Entity id="Dtext_000N_130437.E8" cui="C0019664" name="History" semtypes="ocdi" text="history" score="790" negated="false" begin="113" end="120" />
+  <Entity id="Dtext_000N_130437.E9" cui="C0205329" name="Progressive" semtypes="ftcn" text="progressive" score="888" negated="false" begin="124" end="135" />
+  <Entity id="Dtext_000N_130437.E10" cui="C0015230" name="Exanthema" semtypes="sosy" text="rash" score="888" negated="false" begin="136" end="140" />
+ </Utterance>
+ <Utterance id="Dtext_000N_130437.tx.2" section="tx" number="2" begin="142" end="205" text="The rash started on his face and now involves the entire body.">
+  <Entity id="Dtext_000N_130437.E11" cui="C0015230" name="Exanthema" semtypes="sosy" text="rash" score="1000" negated="false" begin="146" end="150" />
+  <Entity id="Dtext_000N_130437.E12" cui="C0015450" name="Face" semtypes="blor" text="face" score="1000" negated="false" begin="166" end="170" />
+  <Entity id="Dtext_000N_130437.E13" cui="C0444584" name="Whole body" semtypes="anst" text="entire body" score="1000" negated="false" begin="192" end="203" />
+ </Utterance>
+ <Utterance id="Dtext_000N_130437.tx.3" section="tx" number="3" begin="205" end="261" text="For the past week, he has had a cough and a runny nose.">
+  <Entity id="Dtext_000N_130437.E14" cui="C2987125" name="Past Week" semtypes="tmco" text="past week" score="1000" negated="false" begin="213" end="222" />
+  <Entity id="Dtext_000N_130437.E15" cui="C0010200" name="Coughing" semtypes="sosy" text="cough" score="1000" negated="false" begin="237" end="242" />
+  <Entity id="Dtext_000N_130437.E16" cui="C1260880" name="Rhinorrhea" semtypes="sosy" text="runny nose" score="1000" negated="false" begin="249" end="259" />
+ </Utterance>
+ <Utterance id="Dtext_000N_130437.tx.4" section="tx" number="4" begin="261" end="314" text="He is visiting from the Philippines with his family.">
+  <Entity id="Dtext_000N_130437.E17" cui="C0031529" name="Philippines" semtypes="geoa" text="Philippines" score="1000" negated="false" begin="285" end="296" />
+  <Entity id="Dtext_000N_130437.E18" cui="C0015576" name="Family" semtypes="famg" text="family" score="1000" negated="false" begin="306" end="312" />
+ </Utterance>
+ <Utterance id="Dtext_000N_130437.tx.5" section="tx" number="5" begin="314" end="400" text="He is in first grade and spends his afternoons at an after-school child care program.">
+  <Entity id="Dtext_000N_130437.E19" cui="C1279901" name="Firstly" semtypes="qlco" text="first" score="888" negated="false" begin="323" end="328" />
+  <Entity id="Dtext_000N_130437.E20" cui="C0439550" name="Afternoon" semtypes="tmco" text="afternoons" score="1000" negated="false" begin="350" end="360" />
+  <Entity id="Dtext_000N_130437.E21" cui="C0036375" name="School" semtypes="mnob,orgt" text="school" score="861" negated="false" begin="373" end="379" />
+  <Entity id="Dtext_000N_130437.E22" cui="C0008067" name="Child Care" semtypes="dora" text="child care" score="861" negated="false" begin="380" end="390" />
+  <Entity id="Dtext_000N_130437.E23" cui="C2728259" name="Program" semtypes="orch,phsu" text="program" score="861" negated="false" begin="391" end="398" />
+ </Utterance>
+ <Utterance id="Dtext_000N_130437.tx.6" section="tx" number="6" begin="400" end="440" text="Immunization records are not available.">
+  <Entity id="Dtext_000N_130437.E24" cui="C4273868" name="Immunization record" semtypes="inpr" text="Immunization records" score="983" negated="false" begin="400" end="420" />
+  <Entity id="Dtext_000N_130437.E25" cui="C0686905" name="Unavailability" semtypes="qlco" text="not available" score="1000" negated="false" begin="425" end="438" />
+ </Utterance>
+ <Utterance id="Dtext_000N_130437.tx.7" section="tx" number="7" begin="440" end="531" text="His temperature is 39.5&#194;&#176;C (103&#194;&#176;F), pulse is 115/min, and blood pressure is 105/66 mm Hg.">
+  <Entity id="Dtext_000N_130437.E26" cui="C0039476" name="Temperature" semtypes="qnco" text="temperature" score="1000" negated="false" begin="444" end="455" />
+  <Entity id="Dtext_000N_130437.E27" cui="C0702093" name="Per Minute" semtypes="tmco" text="min" score="861" negated="false" begin="490" end="493" />
+  <Entity id="Dtext_000N_130437.E28" cui="C0005823" name="Blood Pressure" semtypes="orgf" text="blood pressure" score="1000" negated="false" begin="499" end="513" />
+  <Entity id="Dtext_000N_130437.E29" cui="C0439475" name="mmHg" semtypes="qnco" text="mm Hg" score="812" negated="false" begin="524" end="529" />
+ </Utterance>
+ <Utterance id="Dtext_000N_130437.tx.8" section="tx" number="8" begin="531" end="578" text="Examination shows generalized lymphadenopathy.">
+  <Entity id="Dtext_000N_130437.E30" cui="C4321457" name="Examination" semtypes="acty" text="Examination" score="1000" negated="false" begin="531" end="542" />
+  <Entity id="Dtext_000N_130437.E31" cui="C0476486" name="Generalized enlarged lymph nodes" semtypes="patf" text="generalized lymphadenopathy" score="1000" negated="false" begin="549" end="576" />
+ </Utterance>
+ <Utterance id="Dtext_000N_130437.tx.9" section="tx" number="9" begin="578" end="682" text="There is an erythematous maculopapular, blanching, and partially confluent exanthem on his entire body.">
+  <Entity id="Dtext_000N_130437.E32" cui="C0332476" name="erythematous" semtypes="ftcn" text="erythematous" score="901" negated="false" begin="590" end="602" />
+  <Entity id="Dtext_000N_130437.E33" cui="C0443253" name="Maculopapular" semtypes="qlco" text="maculopapular" score="901" negated="false" begin="603" end="616" />
+  <Entity id="Dtext_000N_130437.E34" cui="C0205200" name="Confluent" semtypes="qlco" text="confluent" score="790" negated="false" begin="643" end="652" />
+  <Entity id="Dtext_000N_130437.E35" cui="C0015230" name="Exanthema" semtypes="sosy" text="exanthem" score="790" negated="false" begin="653" end="661" />
+  <Entity id="Dtext_000N_130437.E36" cui="C0444584" name="Whole body" semtypes="anst" text="entire body" score="1000" negated="false" begin="669" end="680" />
+ </Utterance>
+ <Utterance id="Dtext_000N_130437.tx.10" section="tx" number="10" begin="682" end="739" text="The remainder of the examination shows no abnormalities.">
+  <Entity id="Dtext_000N_130437.E37" cui="C4321457" name="Examination" semtypes="acty" text="examination" score="1000" negated="false" begin="703" end="714" />
+ </Utterance>
+ <Utterance id="Dtext_000N_130437.tx.11" section="tx" number="11" begin="739" end="803" text="Which of the following is most likely to confirm the diagnosis?">
+  <Entity id="Dtext_000N_130437.E38" cui="C0231290" name="Status post" semtypes="tmco" text="following" score="1000" negated="false" begin="752" end="761" />
+  <Entity id="Dtext_000N_130437.E39" cui="C0750501" name="most likely" semtypes="idcn" text="most likely" score="1000" negated="false" begin="765" end="776" />
+  <Entity id="Dtext_000N_130437.E40" cui="C0011900" name="Diagnosis" semtypes="diap" text="diagnosis" score="1000" negated="false" begin="792" end="801" />
+ </Utterance>
+ <Utterance id="Dtext_000N_130437.tx.12" section="tx" number="12" begin="803" end="1025" text="Option: {&#39;A&#39;: &#39;Rapid plasma reagin&#39;, &#39;B&#39;: &#39;Tzanck smear&#39;, &#39;C&#39;: &#39;Measles-specific IgM antibodies&#39;, &#39;D&#39;: &#39;Rapid antigen detection testing&#39;, &#39;E&#39;: &#39;Monospot test&#39;} Please explain your answer and why the other options are wrong">
+  <Entity id="Dtext_000N_130437.E41" cui="C1518601" name="Options" semtypes="ftcn" text="Option" score="1000" negated="false" begin="803" end="809" />
+  <Entity id="Dtext_000N_130437.E42" cui="C0456962" name="Rapid" semtypes="qlco" text="Rapid" score="851" negated="false" begin="818" end="823" />
+  <Entity id="Dtext_000N_130437.E43" cui="C0032105" name="Plasma" semtypes="bdsu" text="plasma" score="851" negated="false" begin="824" end="830" />
+  <Entity id="Dtext_000N_130437.E44" cui="C0034761" name="Reagins" semtypes="aapp,imft" text="reagin" score="851" negated="false" begin="831" end="837" />
+  <Entity id="Dtext_000N_130437.E45" cui="C1547938" name="Smear, Tzanck" semtypes="inpr" text="Tzanck smear" score="1000" negated="false" begin="846" end="858" />
+  <Entity id="Dtext_000N_130437.E46" cui="C2317942" name="Rubeola IgM Antibody Measurement" semtypes="lbpr" text="Measles-specific IgM antibodies" score="906" negated="false" begin="867" end="898" />
+  <Entity id="Dtext_000N_130437.E47" cui="C0456962" name="Rapid" semtypes="qlco" text="Rapid" score="861" negated="false" begin="907" end="912" />
+  <Entity id="Dtext_000N_130437.E48" cui="C1511790" name="Detection" semtypes="topp" text="detection" score="861" negated="false" begin="921" end="930" />
+  <Entity id="Dtext_000N_130437.E49" cui="C0729856" name="Antigen test" semtypes="lbpr" text="antigen detection testing" score="861" negated="false" begin="913" end="938" />
+  <Entity id="Dtext_000N_130437.E50" cui="C0430435" name="Monospot test" semtypes="lbpr" text="Monospot test" score="1000" negated="false" begin="947" end="960" />
+  <Entity id="Dtext_000N_130437.E51" cui="C1706817" name="Response (statement)" semtypes="inpr" text="answer" score="1000" negated="false" begin="983" end="989" />
+  <Entity id="Dtext_000N_130437.E52" cui="C1518601" name="Options" semtypes="ftcn" text="options" score="1000" negated="false" begin="1008" end="1015" />
+  <Entity id="Dtext_000N_130437.E53" cui="C3827420" name="Wrong" semtypes="qlco" text="wrong" score="1000" negated="false" begin="1020" end="1025" />
+  <Predication id="Dtext_000N_130437.P1" negated="false" inferred="false">
+   <Subject maxDist="0" dist="0" entityID="Dtext_000N_130437.E43" relSemType="bdsu" />
+   <Predicate type="LOCATION_OF" indicatorType="MOD_HEAD" begin="824" end="837" />
+   <Object maxDist="0" dist="0" entityID="Dtext_000N_130437.E44" relSemType="aapp" />
+  </Predication>
+  <Predication id="Dtext_000N_130437.P2" negated="false" inferred="false">
+   <Subject maxDist="0" dist="0" entityID="Dtext_000N_130437.E49" relSemType="lbpr" />
+   <Predicate type="USES" indicatorType="MOD_HEAD" begin="921" end="938" />
+   <Object maxDist="0" dist="0" entityID="Dtext_000N_130437.E48" relSemType="topp" />
+  </Predication>
+ </Utterance>
+</Document>
+</SemRepAnnotation>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SemRepAnnotation PUBLIC "-//NLM//DTD SemRep Output//EN" "http://semrep.nlm.nih.gov/DTD/SemRepXML_v1.8.dtd">
+<SemRepAnnotation>
+ <Document id="Dtext_000N_78216" text="ERROR [3673]: USMLE question: A 12-year-old boy is found on a routine auditory screening to have mild high frequency hearing impairment. On exam, he has no ear pain, no focal neurological deficits, and no cardiac murmurs. He has not had any recent illness. Laboratory studies show:  Serum: Creatinine: 0.7 mg/dl Protein: 3.8 g/dl Antistreptolysin O titer: 60 Todd units (12-166 normal range)  Urinalysis: Microscopic heme Protein: 4+ RBCs: 6/hpf  A kidney biopsy is taken. Which of the following findings is most characteristic of this patient&#226;&#8364;&#8482;s disease? Option: {&#39;A&#39;: &#39;&#226;&#8364;&#339;Basket-weave&#226;&#8364;&#157; pattern of basement membrane on electron microscopy&#39;, &#39;B&#39;: &#39;Crescent-moon shapes on light microscopy&#39;, &#39;C&#39;: &#39;Large eosinophilic nodular lesions on light microscopy&#39;, &#39;D&#39;: &#39;Thickened &#226;&#8364;&#339;tram-track&#226;&#8364;&#157; appearance of basement membrane on electron microscopy&#39;, &#39;E&#39;: &#39;&#226;&#8364;&#339;Spike and dome&#226;&#8364;&#157; appearance on electron microscopy&#39;} Please explain your answer and why the other options are wrong" >
+ <Utterance id="Dtext_000N_78216.tx.1" section="tx" number="1" begin="0" end="137" text="ERROR [3673]: USMLE question: A 12-year-old boy is found on a routine auditory screening to have mild high frequency hearing impairment.">
+  <Entity id="Dtext_000N_78216.E1" cui="C0743559" name="error" semtypes="qlco" text="ERROR" score="1000" negated="false" begin="0" end="5" />
+  <Entity id="Dtext_000N_78216.E2" cui="C0439234" name="year" semtypes="tmco" text="year" score="775" negated="false" begin="35" end="39" />
+  <Entity id="Dtext_000N_78216.E3" cui="C0580836" name="Old" semtypes="tmco" text="old" score="775" negated="false" begin="40" end="43" />
+  <Entity id="Dtext_000N_78216.E4" cui="C0870221" name="Boys" semtypes="aggp" text="boy" score="775" negated="false" begin="44" end="47" />
+  <Entity id="Dtext_000N_78216.E5" cui="C0205547" name="Routine" semtypes="qlco" text="routine" score="851" negated="false" begin="62" end="69" />
+  <Entity id="Dtext_000N_78216.E6" cui="C0439825" name="Auditory" semtypes="ftcn" text="auditory" score="851" negated="false" begin="70" end="78" />
+  <Entity id="Dtext_000N_78216.E7" cui="C0220908" name="Screening procedure" semtypes="hlca" text="screening" score="851" negated="false" begin="79" end="88" />
+  <Entity id="Dtext_000N_78216.E8" cui="C0018780" name="Hearing Loss, High-Frequency" semtypes="dsyn" text="high frequency hearing impairment" score="937" negated="false" begin="102" end="135" />
+  <Predication id="Dtext_000N_78216.P1" negated="false" inferred="false">
+   <Subject maxDist="1" dist="1" entityID="Dtext_000N_78216.E8" relSemType="dsyn" />
+   <Predicate type="PROCESS_OF" indicatorType="AUX" begin="92" end="96" />
+   <Object maxDist="4" dist="2" entityID="Dtext_000N_78216.E4" relSemType="humn" />
+  </Predication>
+ </Utterance>
+ <Utterance id="Dtext_000N_78216.tx.2" section="tx" number="2" begin="137" end="222" text="On exam, he has no ear pain, no focal neurological deficits, and no cardiac murmurs.">
+  <Entity id="Dtext_000N_78216.E9" cui="C0582103" name="Medical Examination" semtypes="hlca" text="exam" score="1000" negated="false" begin="140" end="144" />
+  <Entity id="Dtext_000N_78216.E10" cui="C0013456" name="Earache" semtypes="sosy" text="ear pain" score="1000" negated="false" begin="156" end="164" />
+  <Entity id="Dtext_000N_78216.E11" cui="C0205234" name="Focal" semtypes="spco" text="focal" score="890" negated="false" begin="169" end="174" />
+  <Entity id="Dtext_000N_78216.E12" cui="C0521654" name="Neurologic Deficits" semtypes="fndg" text="neurological deficits" score="890" negated="false" begin="175" end="196" />
+  <Entity id="Dtext_000N_78216.E13" cui="C0018808" name="Heart murmur" semtypes="fndg" text="cardiac murmurs" score="1000" negated="false" begin="205" end="220" />
+ </Utterance>
+ <Utterance id="Dtext_000N_78216.tx.3" section="tx" number="3" begin="222" end="257" text="He has not had any recent illness.">
+  <Entity id="Dtext_000N_78216.E14" cui="C1518422" name="Negation" semtypes="ftcn" text="not" score="1000" negated="false" begin="229" end="232" />
+  <Entity id="Dtext_000N_78216.E15" cui="C0332185" name="Recent" semtypes="tmco" text="recent" score="694" negated="false" begin="241" end="247" />
+ </Utterance>
+ <Utterance id="Dtext_000N_78216.tx.4" section="tx" number="4" begin="257" end="473" text="Laboratory studies show:  Serum: Creatinine: 0.7 mg/dl Protein: 3.8 g/dl Antistreptolysin O titer: 60 Todd units (12-166 normal range)  Urinalysis: Microscopic heme Protein: 4+ RBCs: 6/hpf  A kidney biopsy is taken.">
+  <Entity id="Dtext_000N_78216.E16" cui="C0681827" name="laboratory studies" semtypes="lbpr" text="Laboratory studies" score="1000" negated="false" begin="257" end="275" />
+  <Entity id="Dtext_000N_78216.E17" cui="C0229671" name="Serum" semtypes="bdsu" text="Serum" score="1000" negated="false" begin="283" end="288" />
+  <Entity id="Dtext_000N_78216.E18" cui="C0010294" name="Creatinine" semtypes="bacs,orch" text="Creatinine" score="1000" negated="false" begin="290" end="300" />
+  <Entity id="Dtext_000N_78216.E19" cui="C4517474" name="0.7" semtypes="qnco" text="0.7" score="857" negated="false" begin="302" end="305" />
+  <Entity id="Dtext_000N_78216.E20" cui="C0439269" name="mg/dL" semtypes="qnco" text="mg/dl" score="857" negated="false" begin="306" end="311" />
+  <Entity id="Dtext_000N_78216.E21" cui="C0033684" name="Proteins" semtypes="aapp,bacs" text="Protein" score="857" negated="false" begin="312" end="319" />
+  <Entity id="Dtext_000N_78216.E22" cui="C0439267" name="Gram per Deciliter" semtypes="qnco" text="g/dl" score="807" negated="false" begin="325" end="329" />
+  <Entity id="Dtext_000N_78216.E23" cui="C1318462" name="Antistreptolysin O titer" semtypes="lbpr" text="Antistreptolysin O titer" score="807" negated="false" begin="330" end="354" />
+  <Entity id="Dtext_000N_78216.E24" cui="C0439148" name="Unit" semtypes="qnco" text="units" score="802" negated="false" begin="364" end="369" />
+  <Entity id="Dtext_000N_78216.E25" cui="C0086715" name="Normal Range" semtypes="qnco" text="normal range" score="861" negated="false" begin="378" end="390" />
+  <Entity id="Dtext_000N_78216.E26" cui="C0042014" name="Urinalysis" semtypes="lbpr" text="Urinalysis" score="1000" negated="false" begin="393" end="403" />
+  <Entity id="Dtext_000N_78216.E27" cui="C0205288" name="Microscopic" semtypes="qlco" text="Microscopic" score="888" negated="false" begin="405" end="416" />
+  <Entity id="Dtext_000N_78216.E28" cui="C0018974" name="Hemeproteins" semtypes="aapp,bacs" text="heme Protein" score="888" negated="false" begin="417" end="429" />
+  <Entity id="Dtext_000N_78216.E29" cui="C0014792" name="Erythrocytes" semtypes="cell" text="RBCs" score="861" negated="false" begin="434" end="438" />
+  <Entity id="Dtext_000N_78216.E30" cui="C0439530" name="/HPF" semtypes="qnco" text="hpf" score="861" negated="false" begin="442" end="445" />
+  <Entity id="Dtext_000N_78216.E31" cui="C0194073" name="Kidney biopsy" semtypes="diap" text="kidney biopsy" score="1000" negated="false" begin="449" end="462" />
+ </Utterance>
+ <Utterance id="Dtext_000N_78216.tx.5" section="tx" number="5" begin="473" end="557" text="Which of the following findings is most characteristic of this patient&#226;  s disease?">
+  <Entity id="Dtext_000N_78216.E32" cui="C0231290" name="Status post" semtypes="tmco" text="following" score="888" negated="false" begin="486" end="495" />
+  <Entity id="Dtext_000N_78216.E33" cui="C2926606" name="Procedure findings:Finding:Point in time:^Patient:Narrative" semtypes="clna" text="findings" score="888" negated="false" begin="496" end="504" />
+  <Entity id="Dtext_000N_78216.E34" cui="C0205393" name="Most" semtypes="qnco" text="most" score="888" negated="false" begin="508" end="512" />
+  <Entity id="Dtext_000N_78216.E35" cui="C1521970" name="Characteristics" semtypes="qlco" text="characteristic" score="888" negated="false" begin="513" end="527" />
+  <Entity id="Dtext_000N_78216.E36" cui="C0012634" name="Disease" semtypes="dsyn" text="disease" score="827" negated="false" begin="548" end="555" />
+  <Coreference id="Dtext_000N_78216.C2">
+   <Anaphor entityID="Dtext_000N_78216.E36" />
+   <Antecedent entityID="Dtext_000N_78216.E10" />
+  </Coreference>
+ </Utterance>
+ <Utterance id="Dtext_000N_78216.tx.6" section="tx" number="6" begin="557" end="972" text="Option: {&#39;A&#39;: &#39;&#226; &#339;Basket-weave&#226;   pattern of basement membrane on electron microscopy&#39;, &#39;B&#39;: &#39;Crescent-moon shapes on light microscopy&#39;, &#39;C&#39;: &#39;Large eosinophilic nodular lesions on light microscopy&#39;, &#39;D&#39;: &#39;Thickened &#226; &#339;tram-track&#226;   appearance of basement membrane on electron microscopy&#39;, &#39;E&#39;: &#39;&#226; &#339;Spike and dome&#226;   appearance on electron microscopy&#39;} Please explain your answer and why the other options are wrong">
+  <Entity id="Dtext_000N_78216.E37" cui="C1518601" name="Options" semtypes="ftcn" text="Option" score="1000" negated="false" begin="557" end="563" />
+  <Entity id="Dtext_000N_78216.E38" cui="C0449774" name="Patterns" semtypes="spco" text="pattern" score="812" negated="false" begin="591" end="598" />
+  <Entity id="Dtext_000N_78216.E39" cui="C0004799" name="Basement membrane" semtypes="tisu" text="basement membrane" score="1000" negated="false" begin="602" end="619" />
+  <Entity id="Dtext_000N_78216.E40" cui="C0026019" name="Electron Microscopy" semtypes="lbpr" text="electron microscopy" score="1000" negated="false" begin="623" end="642" />
+  <Entity id="Dtext_000N_78216.E41" cui="C0444628" name="Crescents" semtypes="spco" text="Crescent" score="888" negated="false" begin="651" end="659" />
+  <Entity id="Dtext_000N_78216.E42" cui="C0079853" name="Moon" semtypes="geoa" text="moon" score="888" negated="false" begin="660" end="664" />
+  <Entity id="Dtext_000N_78216.E43" cui="C0430389" name="Light Microscopy" semtypes="lbpr" text="light microscopy" score="1000" negated="false" begin="675" end="691" />
+  <Entity id="Dtext_000N_78216.E44" cui="C0549177" name="Large" semtypes="qnco" text="Large" score="861" negated="false" begin="700" end="705" />
+  <Entity id="Dtext_000N_78216.E45" cui="C0333930" name="eosinophilic" semtypes="ftcn" text="eosinophilic" score="861" negated="false" begin="706" end="718" />
+  <Entity id="Dtext_000N_78216.E46" cui="C1518345" name="Nodular lesions" semtypes="fndg" text="nodular lesions" score="861" negated="false" begin="719" end="734" />
+  <Entity id="Dtext_000N_78216.E47" cui="C0430389" name="Light Microscopy" semtypes="lbpr" text="light microscopy" score="1000" negated="false" begin="738" end="754" />
+  <Entity id="Dtext_000N_78216.E48" cui="C0205400" name="Thickened" semtypes="fndg" text="Thickened" score="786" negated="false" begin="763" end="772" />
+  <Entity id="Dtext_000N_78216.E49" cui="C0700364" name="Appearance" semtypes="qlco" text="appearance" score="786" negated="false" begin="790" end="800" />
+  <Entity id="Dtext_000N_78216.E50" cui="C0004799" name="Basement membrane" semtypes="tisu" text="basement membrane" score="1000" negated="false" begin="804" end="821" />
+  <Entity id="Dtext_000N_78216.E51" cui="C0026019" name="Electron Microscopy" semtypes="lbpr" text="electron microscopy" score="1000" negated="false" begin="825" end="844" />
+  <Entity id="Dtext_000N_78216.E52" cui="C0700364" name="Appearance" semtypes="qlco" text="appearance" score="861" negated="false" begin="874" end="884" />
+  <Entity id="Dtext_000N_78216.E53" cui="C0026019" name="Electron Microscopy" semtypes="lbpr" text="electron microscopy" score="1000" negated="false" begin="888" end="907" />
+  <Entity id="Dtext_000N_78216.E54" cui="C1706817" name="Response (statement)" semtypes="inpr" text="answer" score="1000" negated="false" begin="930" end="936" />
+  <Entity id="Dtext_000N_78216.E55" cui="C1518601" name="Options" semtypes="ftcn" text="options" score="1000" negated="false" begin="955" end="962" />
+  <Entity id="Dtext_000N_78216.E56" cui="C3827420" name="Wrong" semtypes="qlco" text="wrong" score="1000" negated="false" begin="967" end="972" />
+ </Utterance>
+</Document>
+</SemRepAnnotation>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SemRepAnnotation PUBLIC "-//NLM//DTD SemRep Output//EN" "http://semrep.nlm.nih.gov/DTD/SemRepXML_v1.8.dtd">
+<SemRepAnnotation>
+ <Document id="Dtext_000N_257657" text="ERROR [3674]: USMLE question: A 61-year-old woman comes to the physician because of a 1-week history of dizziness, nausea, vomiting, and repeated falls. Neurologic examination shows past-pointing on a finger-nose test. She has a broad-based gait. Ophthalmologic exam shows rhythmic leftward movement of the globes. A serum antibody assay is positive for anti-Yo antibodies directed at proteins expressed by Purkinje cells. This patient&#39;s condition is most likely associated with which of the following tumors? Option: {&#39;A&#39;: &#39;Ovarian teratoma&#39;, &#39;B&#39;: &#39;Neuroblastoma&#39;, &#39;C&#39;: &#39;Breast cancer&#39;, &#39;D&#39;: &#39;Thymoma&#39;, &#39;E&#39;: &#39;Small cell lung cancer&#39;} Please explain your answer and why the other options are wrong" >
+ <Utterance id="Dtext_000N_257657.tx.1" section="tx" number="1" begin="0" end="153" text="ERROR [3674]: USMLE question: A 61-year-old woman comes to the physician because of a 1-week history of dizziness, nausea, vomiting, and repeated falls.">
+  <Entity id="Dtext_000N_257657.E1" cui="C0743559" name="error" semtypes="qlco" text="ERROR" score="1000" negated="false" begin="0" end="5" />
+  <Entity id="Dtext_000N_257657.E2" cui="C0439234" name="year" semtypes="tmco" text="year" score="833" negated="false" begin="35" end="39" />
+  <Entity id="Dtext_000N_257657.E3" cui="C0580836" name="Old" semtypes="tmco" text="old" score="833" negated="false" begin="40" end="43" />
+  <Entity id="Dtext_000N_257657.E4" cui="C0043210" name="Woman" semtypes="popg" text="woman" score="833" negated="false" begin="44" end="49" />
+  <Entity id="Dtext_000N_257657.E5" cui="C0031831" name="Physicians" semtypes="prog" text="physician" score="1000" negated="false" begin="63" end="72" />
+  <Entity id="Dtext_000N_257657.E6" cui="C0332174" name="Weekly" semtypes="tmco" text="week" score="750" negated="false" begin="88" end="92" />
+  <Entity id="Dtext_000N_257657.E7" cui="C0019664" name="History" semtypes="ocdi" text="history" score="750" negated="false" begin="93" end="100" />
+  <Entity id="Dtext_000N_257657.E8" cui="C0012833" name="Dizziness" semtypes="sosy" text="dizziness" score="1000" negated="false" begin="104" end="113" />
+  <Entity id="Dtext_000N_257657.E9" cui="C0027497" name="Nausea" semtypes="sosy" text="nausea" score="1000" negated="false" begin="115" end="121" />
+  <Entity id="Dtext_000N_257657.E10" cui="C2830328" name="Repeated falls" semtypes="sosy" text="repeated falls" score="1000" negated="false" begin="137" end="151" />
+ </Utterance>
+ <Utterance id="Dtext_000N_257657.tx.2" section="tx" number="2" begin="153" end="219" text="Neurologic examination shows past-pointing on a finger-nose test.">
+  <Entity id="Dtext_000N_257657.E11" cui="C0027853" name="Neurologic Examination" semtypes="diap" text="Neurologic examination" score="1000" negated="false" begin="153" end="175" />
+  <Entity id="Dtext_000N_257657.E12" cui="C4284302" name="EHD1 wt Allele" semtypes="gngm" text="past" score="1000" negated="false" begin="182" end="186" />
+  <Entity id="Dtext_000N_257657.E13" cui="C0278158" name="Finger-to-nose test" semtypes="diap" text="finger-nose test" score="1000" negated="false" begin="201" end="217" />
+ </Utterance>
+ <Utterance id="Dtext_000N_257657.tx.3" section="tx" number="3" begin="219" end="247" text="She has a broad-based gait.">
+  <Entity id="Dtext_000N_257657.E14" cui="C0856863" name="Broad-based gait" semtypes="fndg" text="broad-based gait" score="1000" negated="false" begin="229" end="245" />
+ </Utterance>
+ <Utterance id="Dtext_000N_257657.tx.4" section="tx" number="4" begin="247" end="315" text="Ophthalmologic exam shows rhythmic leftward movement of the globes.">
+  <Entity id="Dtext_000N_257657.E15" cui="C0029087" name="Ophthalmology specialty" semtypes="bmod" text="Ophthalmologic" score="888" negated="false" begin="247" end="261" />
+  <Entity id="Dtext_000N_257657.E16" cui="C0582103" name="Medical Examination" semtypes="hlca" text="exam" score="888" negated="false" begin="262" end="266" />
+  <Entity id="Dtext_000N_257657.E17" cui="C0031084" name="Periodicity" semtypes="tmco" text="rhythmic" score="766" negated="false" begin="273" end="281" />
+  <Entity id="Dtext_000N_257657.E18" cui="C0026649" name="Movement" semtypes="orgf" text="movement" score="766" negated="false" begin="291" end="299" />
+  <Entity id="Dtext_000N_257657.E19" cui="C0015392" name="Eye" semtypes="bpoc" text="globes" score="966" negated="false" begin="307" end="313" />
+ </Utterance>
+ <Utterance id="Dtext_000N_257657.tx.5" section="tx" number="5" begin="315" end="423" text="A serum antibody assay is positive for anti-Yo antibodies directed at proteins expressed by Purkinje cells.">
+  <Entity id="Dtext_000N_257657.E20" cui="C0229671" name="Serum" semtypes="bdsu" text="serum" score="851" negated="false" begin="317" end="322" />
+  <Entity id="Dtext_000N_257657.E21" cui="C0003241" name="Antibodies" semtypes="aapp,imft" text="antibody" score="851" negated="false" begin="323" end="331" />
+  <Entity id="Dtext_000N_257657.E22" cui="C1510438" name="Assay" semtypes="lbpr" text="assay" score="851" negated="false" begin="332" end="337" />
+  <Entity id="Dtext_000N_257657.E23" cui="C0439178" name="percent positive cells" semtypes="qnco" text="positive" score="1000" negated="false" begin="341" end="349" />
+  <Entity id="Dtext_000N_257657.E24" cui="C1624602" name="Anti-Antibodies" semtypes="aapp,imft" text="anti-Yo antibodies" score="901" negated="false" begin="354" end="372" />
+  <Entity id="Dtext_000N_257657.E25" cui="C0033684" name="Proteins" semtypes="aapp,bacs" text="proteins" score="1000" negated="false" begin="385" end="393" />
+  <Entity id="Dtext_000N_257657.E26" cui="C0034143" name="Purkinje Cells" semtypes="cell" text="Purkinje cells" score="1000" negated="false" begin="407" end="421" />
+  <Predication id="Dtext_000N_257657.P1" negated="false" inferred="false">
+   <Subject maxDist="0" dist="0" entityID="Dtext_000N_257657.E22" relSemType="lbpr" />
+   <Predicate type="USES" indicatorType="MOD_HEAD" begin="323" end="337" />
+   <Object maxDist="0" dist="0" entityID="Dtext_000N_257657.E21" relSemType="aapp" />
+  </Predication>
+  <Predication id="Dtext_000N_257657.P2" negated="false" inferred="false">
+   <Subject maxDist="1" dist="1" entityID="Dtext_000N_257657.E26" relSemType="cell" />
+   <Predicate type="PRODUCES" indicatorType="VERB" begin="394" end="403" />
+   <Object maxDist="4" dist="1" entityID="Dtext_000N_257657.E25" relSemType="aapp" />
+  </Predication>
+ </Utterance>
+ <Utterance id="Dtext_000N_257657.tx.6" section="tx" number="6" begin="423" end="510" text="This patient&#39;s condition is most likely associated with which of the following tumors?">
+  <Entity id="Dtext_000N_257657.E27" cui="C0012634" name="Disease" semtypes="dsyn" text="condition" score="861" negated="false" begin="438" end="447" />
+  <Entity id="Dtext_000N_257657.E28" cui="C0205393" name="Most" semtypes="qnco" text="most" score="1000" negated="false" begin="451" end="455" />
+  <Entity id="Dtext_000N_257657.E29" cui="C0231290" name="Status post" semtypes="tmco" text="following" score="888" negated="false" begin="492" end="501" />
+  <Entity id="Dtext_000N_257657.E30" cui="C0027651" name="Neoplasms" semtypes="neop" text="tumors" score="888" negated="false" begin="502" end="508" />
+  <Coreference id="Dtext_000N_257657.C3">
+   <Anaphor entityID="Dtext_000N_257657.E27" />
+   <Antecedent entityID="Dtext_000N_257657.E14" />
+  </Coreference>
+ </Utterance>
+ <Utterance id="Dtext_000N_257657.tx.7" section="tx" number="7" begin="510" end="697" text="Option: {&#39;A&#39;: &#39;Ovarian teratoma&#39;, &#39;B&#39;: &#39;Neuroblastoma&#39;, &#39;C&#39;: &#39;Breast cancer&#39;, &#39;D&#39;: &#39;Thymoma&#39;, &#39;E&#39;: &#39;Small cell lung cancer&#39;} Please explain your answer and why the other options are wrong">
+  <Entity id="Dtext_000N_257657.E31" cui="C1518601" name="Options" semtypes="ftcn" text="Option" score="1000" negated="false" begin="510" end="516" />
+  <Entity id="Dtext_000N_257657.E32" cui="C0237020" name="Dermoid cyst of ovary" semtypes="neop" text="Ovarian teratoma" score="1000" negated="false" begin="525" end="541" />
+  <Entity id="Dtext_000N_257657.E33" cui="C0027819" name="Neuroblastoma" semtypes="neop" text="Neuroblastoma" score="1000" negated="false" begin="550" end="563" />
+  <Entity id="Dtext_000N_257657.E34" cui="C0006142" name="Malignant neoplasm of breast" semtypes="neop" text="Breast cancer" score="1000" negated="false" begin="572" end="585" />
+  <Entity id="Dtext_000N_257657.E35" cui="C0040100" name="Thymoma" semtypes="neop" text="Thymoma" score="1000" negated="false" begin="594" end="601" />
+  <Entity id="Dtext_000N_257657.E36" cui="C0149925" name="Small cell carcinoma of lung" semtypes="neop" text="Small cell lung cancer" score="1000" negated="false" begin="610" end="632" />
+  <Entity id="Dtext_000N_257657.E37" cui="C1706817" name="Response (statement)" semtypes="inpr" text="answer" score="1000" negated="false" begin="655" end="661" />
+  <Entity id="Dtext_000N_257657.E38" cui="C1518601" name="Options" semtypes="ftcn" text="options" score="1000" negated="false" begin="680" end="687" />
+  <Entity id="Dtext_000N_257657.E39" cui="C3827420" name="Wrong" semtypes="qlco" text="wrong" score="1000" negated="false" begin="692" end="697" />
+ </Utterance>
+</Document>
+</SemRepAnnotation>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SemRepAnnotation PUBLIC "-//NLM//DTD SemRep Output//EN" "http://semrep.nlm.nih.gov/DTD/SemRepXML_v1.8.dtd">
+<SemRepAnnotation>
+ <Document id="Dtext_000N_8174" text="ERROR [3697]: USMLE question: A 53-year-old woman visits her physician with complaints of shortness of breath and fatigue over the last few weeks. Her past medical history includes hypertension diagnosed 20 years ago. She takes hydrochlorothiazide and losartan daily. Her mother died at the age of 54 from a stroke, and both of her grandparents suffered from cardiovascular disease. She has a 13 pack-year history of smoking and drinks alcohol occasionally. Her blood pressure is 150/120 mm Hg, pulse is 95/min, respiratory rate is 22/min, and temperature is 36.7&#194;&#176;C (98.1&#194;&#176;F). On physical examination, she has bibasilar rales, distended jugular veins, and pitting edema in both lower extremities. Her pulse is irregularly irregular and her apical pulse is displaced laterally. Fundoscopy reveals &#226;&#8364;&#732;copper wiring&#226;&#8364;&#8482; and &#226;&#8364;&#732;cotton wool spots&#226;&#8364;&#8482;. Which of the following echocardiographic findings will most likely be found in this patient? Option: {&#39;A&#39;: &#39;Ejection fraction: 40% with increased left ventricular wall thickness&#39;, &#39;B&#39;: &#39;Ejection fraction: 60% with normal left ventricular wall thickness&#39;, &#39;C&#39;: &#39;Ejection fraction: 80% with regurgitant aortic valve&#39;, &#39;D&#39;: &#39;Ejection fraction: 55% with dilated chambers and thin walls&#39;, &#39;E&#39;: &#39;Ejection fraction: 65% with rapid early diastolic filling and slow late diastolic filling&#39;} Please explain your answer and why the other options are wrong" >
+ <Utterance id="Dtext_000N_8174.tx.1" section="tx" number="1" begin="0" end="147" text="ERROR [3697]: USMLE question: A 53-year-old woman visits her physician with complaints of shortness of breath and fatigue over the last few weeks.">
+  <Entity id="Dtext_000N_8174.E1" cui="C0743559" name="error" semtypes="qlco" text="ERROR" score="1000" negated="false" begin="0" end="5" />
+  <Entity id="Dtext_000N_8174.E2" cui="C0439234" name="year" semtypes="tmco" text="year" score="775" negated="false" begin="35" end="39" />
+  <Entity id="Dtext_000N_8174.E3" cui="C0580836" name="Old" semtypes="tmco" text="old" score="775" negated="false" begin="40" end="43" />
+  <Entity id="Dtext_000N_8174.E4" cui="C0043210" name="Woman" semtypes="popg" text="woman" score="775" negated="false" begin="44" end="49" />
+  <Entity id="Dtext_000N_8174.E5" cui="C0031831" name="Physicians" semtypes="prog" text="physician" score="1000" negated="false" begin="61" end="70" />
+  <Entity id="Dtext_000N_8174.E6" cui="C0277786" name="Chief complaint (finding)" semtypes="fndg" text="complaints" score="1000" negated="false" begin="76" end="86" />
+  <Entity id="Dtext_000N_8174.E7" cui="C1282927" name="Shortened" semtypes="qlco" text="shortness" score="928" negated="false" begin="90" end="99" />
+  <Entity id="Dtext_000N_8174.E8" cui="C0225386" name="Breath" semtypes="bdsu" text="breath" score="1000" negated="false" begin="103" end="109" />
+  <Entity id="Dtext_000N_8174.E9" cui="C0015672" name="Fatigue" semtypes="sosy" text="fatigue" score="1000" negated="false" begin="114" end="121" />
+  <Entity id="Dtext_000N_8174.E10" cui="C1517741" name="Last" semtypes="qlco" text="last" score="802" negated="false" begin="131" end="135" />
+  <Entity id="Dtext_000N_8174.E11" cui="C0439230" name="week" semtypes="tmco" text="weeks" score="802" negated="false" begin="140" end="145" />
+  <Predication id="Dtext_000N_8174.P1" negated="false" inferred="false">
+   <Subject maxDist="5" dist="1" entityID="Dtext_000N_8174.E6" relSemType="fndg" />
+   <Predicate type="PROCESS_OF" indicatorType="PREP" begin="71" end="75" />
+   <Object maxDist="4" dist="1" entityID="Dtext_000N_8174.E5" relSemType="humn" />
+  </Predication>
+ </Utterance>
+ <Utterance id="Dtext_000N_8174.tx.2" section="tx" number="2" begin="147" end="218" text="Her past medical history includes hypertension diagnosed 20 years ago.">
+  <Entity id="Dtext_000N_8174.E12" cui="C0262926" name="Medical History" semtypes="fndg" text="past medical history" score="1000" negated="false" begin="151" end="171" />
+  <Entity id="Dtext_000N_8174.E13" cui="C0020538" name="Hypertensive disease" semtypes="dsyn" text="hypertension" score="1000" negated="false" begin="181" end="193" />
+  <Entity id="Dtext_000N_8174.E14" cui="C4084911" name="Life Expectancy Greater than Twenty Years" semtypes="inpr" text="20 years" score="901" negated="false" begin="204" end="212" />
+ </Utterance>
+ <Utterance id="Dtext_000N_8174.tx.3" section="tx" number="3" begin="218" end="268" text="She takes hydrochlorothiazide and losartan daily.">
+  <Entity id="Dtext_000N_8174.E15" cui="C0020261" name="Hydrochlorothiazide" semtypes="orch,phsu" text="hydrochlorothiazide" score="1000" negated="false" begin="228" end="247" />
+  <Entity id="Dtext_000N_8174.E16" cui="C0126174" name="Losartan" semtypes="orch,phsu" text="losartan" score="888" negated="false" begin="252" end="260" />
+  <Entity id="Dtext_000N_8174.E17" cui="C0332173" name="Daily" semtypes="tmco" text="daily" score="888" negated="false" begin="261" end="266" />
+ </Utterance>
+ <Utterance id="Dtext_000N_8174.tx.4" section="tx" number="4" begin="268" end="383" text="Her mother died at the age of 54 from a stroke, and both of her grandparents suffered from cardiovascular disease.">
+  <Entity id="Dtext_000N_8174.E18" cui="C0001779" name="Age" semtypes="orga" text="age" score="1000" negated="false" begin="291" end="294" />
+  <Entity id="Dtext_000N_8174.E19" cui="C0038454" name="Cerebrovascular accident" semtypes="dsyn" text="stroke" score="1000" negated="false" begin="308" end="314" />
+  <Entity id="Dtext_000N_8174.E20" cui="C0337471" name="grandparent" semtypes="famg" text="grandparents" score="1000" negated="false" begin="332" end="344" />
+  <Entity id="Dtext_000N_8174.E21" cui="C0007222" name="Cardiovascular Diseases" semtypes="dsyn" text="cardiovascular disease" score="1000" negated="false" begin="359" end="381" />
+  <Predication id="Dtext_000N_8174.P2" negated="false" inferred="false">
+   <Subject maxDist="1" dist="1" entityID="Dtext_000N_8174.E21" relSemType="dsyn" />
+   <Predicate type="PROCESS_OF" indicatorType="VERB" begin="345" end="353" />
+   <Object maxDist="4" dist="1" entityID="Dtext_000N_8174.E20" relSemType="humn" />
+  </Predication>
+ </Utterance>
+ <Utterance id="Dtext_000N_8174.tx.5" section="tx" number="5" begin="383" end="458" text="She has a 13 pack-year history of smoking and drinks alcohol occasionally.">
+  <Entity id="Dtext_000N_8174.E22" cui="C1277691" name="Pack years" semtypes="inpr" text="pack-year" score="824" negated="false" begin="396" end="405" />
+  <Entity id="Dtext_000N_8174.E23" cui="C0019664" name="History" semtypes="ocdi" text="history" score="824" negated="false" begin="406" end="413" />
+  <Entity id="Dtext_000N_8174.E24" cui="C0037369" name="Smoking" semtypes="inbe" text="smoking" score="1000" negated="false" begin="417" end="424" />
+  <Entity id="Dtext_000N_8174.E25" cui="C0001962" name="Ethanol" semtypes="orch,phsu" text="alcohol" score="888" negated="false" begin="436" end="443" />
+  <Entity id="Dtext_000N_8174.E26" cui="C1998882" name="Sometimes" semtypes="tmco" text="occasionally" score="888" negated="false" begin="444" end="456" />
+ </Utterance>
+ <Utterance id="Dtext_000N_8174.tx.6" section="tx" number="6" begin="458" end="578" text="Her blood pressure is 150/120 mm Hg, pulse is 95/min, respiratory rate is 22/min, and temperature is 36.7&#194;&#176;C (98.1&#194;&#176;F).">
+  <Entity id="Dtext_000N_8174.E27" cui="C0005823" name="Blood Pressure" semtypes="orgf" text="blood pressure" score="1000" negated="false" begin="462" end="476" />
+  <Entity id="Dtext_000N_8174.E28" cui="C0439475" name="mmHg" semtypes="qnco" text="mm Hg" score="861" negated="false" begin="488" end="493" />
+  <Entity id="Dtext_000N_8174.E29" cui="C0702093" name="Per Minute" semtypes="tmco" text="min" score="888" negated="false" begin="507" end="510" />
+  <Entity id="Dtext_000N_8174.E30" cui="C0231832" name="Respiratory rate" semtypes="clna" text="respiratory rate" score="1000" negated="false" begin="512" end="528" />
+  <Entity id="Dtext_000N_8174.E31" cui="C0702093" name="Per Minute" semtypes="tmco" text="min" score="861" negated="false" begin="535" end="538" />
+  <Entity id="Dtext_000N_8174.E32" cui="C0039476" name="Temperature" semtypes="qnco" text="temperature" score="1000" negated="false" begin="544" end="555" />
+ </Utterance>
+ <Utterance id="Dtext_000N_8174.tx.7" section="tx" number="7" begin="578" end="698" text="On physical examination, she has bibasilar rales, distended jugular veins, and pitting edema in both lower extremities.">
+  <Entity id="Dtext_000N_8174.E33" cui="C0031809" name="Physical Examination" semtypes="hlca" text="physical examination" score="1000" negated="false" begin="581" end="601" />
+  <Entity id="Dtext_000N_8174.E34" cui="C0034642" name="Rales" semtypes="fndg" text="rales" score="861" negated="false" begin="621" end="626" />
+  <Entity id="Dtext_000N_8174.E35" cui="C0042484" name="Venous Engorgement" semtypes="patf" text="distended jugular veins" score="913" negated="false" begin="628" end="651" />
+  <Entity id="Dtext_000N_8174.E36" cui="C0333243" name="Pitting edema" semtypes="sosy" text="pitting edema" score="1000" negated="false" begin="657" end="670" />
+  <Entity id="Dtext_000N_8174.E37" cui="C0023216" name="Lower Extremity" semtypes="bpoc" text="lower extremities" score="1000" negated="false" begin="679" end="696" />
+  <Predication id="Dtext_000N_8174.P3" negated="false" inferred="false">
+   <Subject maxDist="1" dist="1" entityID="Dtext_000N_8174.E37" relSemType="bpoc" />
+   <Predicate type="LOCATION_OF" indicatorType="PREP" begin="671" end="673" />
+   <Object maxDist="4" dist="1" entityID="Dtext_000N_8174.E34" relSemType="fndg" />
+  </Predication>
+  <Predication id="Dtext_000N_8174.P4" negated="false" inferred="false">
+   <Subject maxDist="1" dist="1" entityID="Dtext_000N_8174.E37" relSemType="bpoc" />
+   <Predicate type="LOCATION_OF" indicatorType="PREP" begin="671" end="673" />
+   <Object maxDist="4" dist="1" entityID="Dtext_000N_8174.E35" relSemType="patf" />
+  </Predication>
+  <Predication id="Dtext_000N_8174.P5" negated="false" inferred="false">
+   <Subject maxDist="1" dist="1" entityID="Dtext_000N_8174.E37" relSemType="bpoc" />
+   <Predicate type="LOCATION_OF" indicatorType="PREP" begin="671" end="673" />
+   <Object maxDist="4" dist="1" entityID="Dtext_000N_8174.E36" relSemType="sosy" />
+  </Predication>
+ </Utterance>
+ <Utterance id="Dtext_000N_8174.tx.8" section="tx" number="8" begin="698" end="778" text="Her pulse is irregularly irregular and her apical pulse is displaced laterally.">
+  <Entity id="Dtext_000N_8174.E38" cui="C0205271" name="Irregular" semtypes="qlco" text="irregular" score="861" negated="false" begin="723" end="732" />
+  <Entity id="Dtext_000N_8174.E39" cui="C2367682" name="apical Pulse" semtypes="fndg" text="apical pulse" score="1000" negated="false" begin="741" end="753" />
+ </Utterance>
+ <Utterance id="Dtext_000N_8174.tx.9" section="tx" number="9" begin="778" end="846" text="Fundoscopy reveals &#226;  copper wiring&#226;   and &#226;  cotton wool spots&#226;  .">
+  <Entity id="Dtext_000N_8174.E40" cui="C0029090" name="Ophthalmoscopy" semtypes="diap" text="Fundoscopy" score="1000" negated="false" begin="778" end="788" />
+  <Entity id="Dtext_000N_8174.E41" cui="C0009968" name="Copper" semtypes="bacs,elii,phsu" text="copper" score="660" negated="false" begin="800" end="806" />
+  <Entity id="Dtext_000N_8174.E42" cui="C0010196" name="Gossypium" semtypes="plnt" text="cotton" score="583" negated="false" begin="824" end="830" />
+  <Entity id="Dtext_000N_8174.E43" cui="C0043220" name="Wool" semtypes="sbst" text="wool" score="583" negated="false" begin="831" end="835" />
+ </Utterance>
+ <Utterance id="Dtext_000N_8174.tx.10" section="tx" number="10" begin="846" end="939" text="Which of the following echocardiographic findings will most likely be found in this patient?">
+  <Entity id="Dtext_000N_8174.E44" cui="C0231290" name="Status post" semtypes="tmco" text="following" score="828" negated="false" begin="859" end="868" />
+  <Entity id="Dtext_000N_8174.E45" cui="C0013516" name="Echocardiography" semtypes="diap" text="echocardiographic" score="828" negated="false" begin="869" end="886" />
+  <Entity id="Dtext_000N_8174.E46" cui="C2926606" name="Procedure findings:Finding:Point in time:^Patient:Narrative" semtypes="clna" text="findings" score="828" negated="false" begin="887" end="895" />
+  <Entity id="Dtext_000N_8174.E47" cui="C0205393" name="Most" semtypes="qnco" text="most" score="1000" negated="false" begin="901" end="905" />
+  <Entity id="Dtext_000N_8174.E48" cui="C0030705" name="Patients" semtypes="podg" text="patient" score="1000" negated="false" begin="930" end="937" />
+ </Utterance>
+ <Utterance id="Dtext_000N_8174.tx.11" section="tx" number="11" begin="939" end="1390" text="Option: {&#39;A&#39;: &#39;Ejection fraction: 40% with increased left ventricular wall thickness&#39;, &#39;B&#39;: &#39;Ejection fraction: 60% with normal left ventricular wall thickness&#39;, &#39;C&#39;: &#39;Ejection fraction: 80% with regurgitant aortic valve&#39;, &#39;D&#39;: &#39;Ejection fraction: 55% with dilated chambers and thin walls&#39;, &#39;E&#39;: &#39;Ejection fraction: 65% with rapid early diastolic filling and slow late diastolic filling&#39;} Please explain your answer and why the other options are wrong">
+  <Entity id="Dtext_000N_8174.E49" cui="C1518601" name="Options" semtypes="ftcn" text="Option" score="1000" negated="false" begin="939" end="945" />
+  <Entity id="Dtext_000N_8174.E50" cui="C0439509" name="/40" semtypes="tmco" text="40" score="1000" negated="false" begin="973" end="975" />
+  <Entity id="Dtext_000N_8174.E51" cui="C0504053" name="Wall of left ventricle" semtypes="bpoc" text="left ventricular wall" score="893" negated="false" begin="992" end="1013" />
+  <Entity id="Dtext_000N_8174.E52" cui="C0205400" name="Thickened" semtypes="fndg" text="increased left ventricular wall thickness" score="893" negated="false" begin="982" end="1023" />
+  <Entity id="Dtext_000N_8174.E53" cui="C3842585" name="60%" semtypes="qnco" text="60" score="1000" negated="false" begin="1051" end="1053" />
+  <Entity id="Dtext_000N_8174.E54" cui="C0504053" name="Wall of left ventricle" semtypes="bpoc" text="left ventricular wall" score="893" negated="false" begin="1067" end="1088" />
+  <Entity id="Dtext_000N_8174.E55" cui="C0332524" name="Normal thickness" semtypes="qlco" text="normal left ventricular wall thickness" score="893" negated="false" begin="1060" end="1098" />
+  <Entity id="Dtext_000N_8174.E56" cui="C3842583" name="80%" semtypes="qnco" text="80" score="1000" negated="false" begin="1126" end="1128" />
+  <Entity id="Dtext_000N_8174.E57" cui="C0003483" name="Aorta" semtypes="bpoc" text="aortic" score="790" negated="false" begin="1147" end="1153" />
+  <Entity id="Dtext_000N_8174.E58" cui="C0184252" name="Medical Valves" semtypes="medd" text="valve" score="790" negated="false" begin="1154" end="1159" />
+  <Entity id="Dtext_000N_8174.E59" cui="C0450382" name="55" semtypes="inpr" text="55" score="1000" negated="false" begin="1187" end="1189" />
+  <Entity id="Dtext_000N_8174.E60" cui="C0700124" name="Dilated" semtypes="fndg" text="dilated" score="888" negated="false" begin="1196" end="1203" />
+  <Entity id="Dtext_000N_8174.E61" cui="C0179874" name="Chamber (physical object)" semtypes="mnob" text="chambers" score="888" negated="false" begin="1204" end="1212" />
+  <Entity id="Dtext_000N_8174.E62" cui="C0450385" name="65" semtypes="inpr" text="65" score="1000" negated="false" begin="1255" end="1257" />
+  <Entity id="Dtext_000N_8174.E63" cui="C0456962" name="Rapid" semtypes="qlco" text="rapid" score="658" negated="false" begin="1264" end="1269" />
+  <Entity id="Dtext_000N_8174.E64" cui="C4068822" name="Early diastolic" semtypes="fndg" text="early diastolic" score="658" negated="false" begin="1270" end="1285" />
+  <Entity id="Dtext_000N_8174.E65" cui="C0439834" name="Slow" semtypes="qlco" text="slow" score="658" negated="false" begin="1298" end="1302" />
+  <Entity id="Dtext_000N_8174.E66" cui="C4068820" name="Late diastolic" semtypes="fndg" text="late diastolic" score="658" negated="false" begin="1303" end="1317" />
+  <Entity id="Dtext_000N_8174.E67" cui="C1706817" name="Response (statement)" semtypes="inpr" text="answer" score="1000" negated="false" begin="1348" end="1354" />
+  <Entity id="Dtext_000N_8174.E68" cui="C1518601" name="Options" semtypes="ftcn" text="options" score="1000" negated="false" begin="1373" end="1380" />
+  <Entity id="Dtext_000N_8174.E69" cui="C3827420" name="Wrong" semtypes="qlco" text="wrong" score="1000" negated="false" begin="1385" end="1390" />
+  <Predication id="Dtext_000N_8174.P6" negated="false" inferred="false">
+   <Subject maxDist="0" dist="0" entityID="Dtext_000N_8174.E57" relSemType="bpoc" />
+   <Predicate type="LOCATION_OF" indicatorType="MOD_HEAD" begin="1147" end="1159" />
+   <Object maxDist="0" dist="0" entityID="Dtext_000N_8174.E58" relSemType="medd" />
+  </Predication>
+  <Predication id="Dtext_000N_8174.P7" negated="false" inferred="false">
+   <Subject maxDist="0" dist="0" entityID="Dtext_000N_8174.E51" relSemType="bpoc" />
+   <Predicate type="LOCATION_OF" indicatorType="MOD_HEAD" begin="992" end="1023" />
+   <Object maxDist="0" dist="0" entityID="Dtext_000N_8174.E52" relSemType="fndg" />
+  </Predication>
+ </Utterance>
+</Document>
+</SemRepAnnotation>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SemRepAnnotation PUBLIC "-//NLM//DTD SemRep Output//EN" "http://semrep.nlm.nih.gov/DTD/SemRepXML_v1.8.dtd">
+<SemRepAnnotation>
+ <Document id="Dtext_000N_206079" text="ERROR [3707]: USMLE question: A 47-year-old man presents to the emergency department with jaundice and extreme fatigue for the past 4 days. He also noticed that his stool is very pale and urine is dark. Past medical history is unremarkable. The review of systems is significant for a 23 kg (50 lb) weight loss over the last 3 months which he says is due to decreased appetite. He is afebrile and the vital signs are within normal limits. A contrast computed tomography (CT) scan of the abdomen reveals a mass in the pancreatic head. A blood test for carbohydrate antigen (CA19-9) is positive. The patient is admitted to the intensive care unit (ICU) and undergoes surgical decompression of the biliary tract. He is placed on total parenteral nutrition (TPN). On day 4 after admission, his intravenous access site is found to be erythematous and edematous. Which of the following microorganisms is most likely responsible for this patient&#226;&#8364;&#8482;s intravenous (IV) site infection? Option: {&#39;A&#39;: &#39;Hepatitis B virus&#39;, &#39;B&#39;: &#39;E. coli&#39;, &#39;C&#39;: &#39;Malassezia furfur&#39;, &#39;D&#39;: &#39;Candida parapsilosis&#39;, &#39;E&#39;: &#39;Pseudomonas aeruginosa&#39;} Please explain your answer and why the other options are wrong" >
+ <Utterance id="Dtext_000N_206079.tx.1" section="tx" number="1" begin="0" end="140" text="ERROR [3707]: USMLE question: A 47-year-old man presents to the emergency department with jaundice and extreme fatigue for the past 4 days.">
+  <Entity id="Dtext_000N_206079.E1" cui="C0743559" name="error" semtypes="qlco" text="ERROR" score="1000" negated="false" begin="0" end="5" />
+  <Entity id="Dtext_000N_206079.E2" cui="C0439234" name="year" semtypes="tmco" text="year" score="775" negated="false" begin="35" end="39" />
+  <Entity id="Dtext_000N_206079.E3" cui="C0580836" name="Old" semtypes="tmco" text="old" score="775" negated="false" begin="40" end="43" />
+  <Entity id="Dtext_000N_206079.E4" cui="C0025266" name="Male population group" semtypes="popg" text="man" score="775" negated="false" begin="44" end="47" />
+  <Entity id="Dtext_000N_206079.E5" cui="C1704729" name="Department" semtypes="orgt" text="department" score="888" negated="false" begin="74" end="84" />
+  <Entity id="Dtext_000N_206079.E6" cui="C0022346" name="Icterus" semtypes="sosy" text="jaundice" score="1000" negated="false" begin="90" end="98" />
+  <Entity id="Dtext_000N_206079.E7" cui="C0015672" name="Fatigue" semtypes="sosy" text="extreme fatigue" score="1000" negated="false" begin="103" end="118" />
+  <Entity id="Dtext_000N_206079.E8" cui="C4284302" name="EHD1 wt Allele" semtypes="gngm" text="past" score="802" negated="false" begin="127" end="131" />
+  <Entity id="Dtext_000N_206079.E9" cui="C0439228" name="day" semtypes="tmco" text="days" score="802" negated="false" begin="134" end="138" />
+ </Utterance>
+ <Utterance id="Dtext_000N_206079.tx.2" section="tx" number="2" begin="140" end="203" text="He also noticed that his stool is very pale and urine is dark.">
+  <Entity id="Dtext_000N_206079.E10" cui="C0015733" name="Feces" semtypes="bdsu" text="stool" score="1000" negated="false" begin="165" end="170" />
+  <Entity id="Dtext_000N_206079.E11" cui="C0442824" name="Very" semtypes="qlco" text="very" score="888" negated="false" begin="174" end="178" />
+  <Entity id="Dtext_000N_206079.E12" cui="C0030232" name="Pallor" semtypes="fndg" text="pale" score="888" negated="false" begin="179" end="183" />
+  <Entity id="Dtext_000N_206079.E13" cui="C0042036" name="Urine" semtypes="bdsu" text="urine" score="1000" negated="false" begin="188" end="193" />
+ </Utterance>
+ <Utterance id="Dtext_000N_206079.tx.3" section="tx" number="3" begin="203" end="241" text="Past medical history is unremarkable.">
+  <Entity id="Dtext_000N_206079.E14" cui="C0262926" name="Medical History" semtypes="fndg" text="Past medical history" score="1000" negated="false" begin="203" end="223" />
+  <Entity id="Dtext_000N_206079.E15" cui="C0205307" name="Normal" semtypes="qlco" text="unremarkable" score="1000" negated="false" begin="227" end="239" />
+ </Utterance>
+ <Utterance id="Dtext_000N_206079.tx.4" section="tx" number="4" begin="241" end="377" text="The review of systems is significant for a 23 kg (50 lb) weight loss over the last 3 months which he says is due to decreased appetite.">
+  <Entity id="Dtext_000N_206079.E16" cui="C0449913" name="System" semtypes="ftcn" text="systems" score="966" negated="false" begin="255" end="262" />
+  <Entity id="Dtext_000N_206079.E17" cui="C0237881" name="Statistical Significance" semtypes="qnco" text="significant" score="1000" negated="false" begin="266" end="277" />
+  <Entity id="Dtext_000N_206079.E18" cui="C1262477" name="Weight decreased" semtypes="fndg" text="weight loss" score="1000" negated="false" begin="298" end="309" />
+  <Entity id="Dtext_000N_206079.E19" cui="C4331910" name="Past 30 days" semtypes="tmco" text="last 3 months" score="896" negated="false" begin="319" end="332" />
+  <Entity id="Dtext_000N_206079.E20" cui="C0232462" name="Decrease in appetite" semtypes="sosy" text="decreased appetite" score="1000" negated="false" begin="357" end="375" />
+ </Utterance>
+ <Utterance id="Dtext_000N_206079.tx.5" section="tx" number="5" begin="377" end="438" text="He is afebrile and the vital signs are within normal limits.">
+  <Entity id="Dtext_000N_206079.E21" cui="C0277797" name="Apyrexial" semtypes="fndg" text="afebrile" score="1000" negated="false" begin="383" end="391" />
+  <Entity id="Dtext_000N_206079.E22" cui="C0518766" name="Vital signs" semtypes="clna" text="vital signs" score="1000" negated="false" begin="400" end="411" />
+  <Entity id="Dtext_000N_206079.E23" cui="C0442816" name="Normal limits" semtypes="fndg" text="normal limits" score="1000" negated="false" begin="423" end="436" />
+ </Utterance>
+ <Utterance id="Dtext_000N_206079.tx.6" section="tx" number="6" begin="438" end="533" text="A contrast computed tomography (CT) scan of the abdomen reveals a mass in the pancreatic head.">
+  <Entity id="Dtext_000N_206079.E24" cui="C1880157" name="Computation (action)" semtypes="acty" text="computed" score="861" negated="false" begin="449" end="457" />
+  <Entity id="Dtext_000N_206079.E25" cui="C0742919" name="ct scan contrast" semtypes="diap" text="contrast computed tomography" score="861" negated="false" begin="440" end="468" />
+  <Entity id="Dtext_000N_206079.E26" cui="C0034606" name="Radionuclide Imaging" semtypes="diap" text="scan" score="861" negated="false" begin="474" end="478" />
+  <Entity id="Dtext_000N_206079.E27" cui="C0000726" name="Abdomen" semtypes="blor" text="abdomen" score="1000" negated="false" begin="486" end="493" />
+  <Entity id="Dtext_000N_206079.E28" cui="C1096155" name="Macrophage Activation Syndrome" semtypes="dsyn" text="mass" score="1000" negated="false" begin="504" end="508" />
+  <Entity id="Dtext_000N_206079.E29" cui="C0227579" name="Head of pancreas" semtypes="bpoc" text="pancreatic head" score="1000" negated="false" begin="516" end="531" />
+  <Predication id="Dtext_000N_206079.P1" negated="false" inferred="false">
+   <Subject maxDist="1" dist="1" entityID="Dtext_000N_206079.E29" relSemType="bpoc" />
+   <Predicate type="LOCATION_OF" indicatorType="PREP" begin="509" end="511" />
+   <Object maxDist="3" dist="1" entityID="Dtext_000N_206079.E28" relSemType="dsyn" />
+  </Predication>
+  <Predication id="Dtext_000N_206079.P2" negated="false" inferred="false">
+   <Subject maxDist="2" dist="2" entityID="Dtext_000N_206079.E26" relSemType="diap" />
+   <Predicate type="DIAGNOSES" indicatorType="VERB" begin="494" end="501" />
+   <Object maxDist="2" dist="1" entityID="Dtext_000N_206079.E28" relSemType="dsyn" />
+  </Predication>
+  <Predication id="Dtext_000N_206079.P3" negated="false" inferred="false">
+   <Subject maxDist="3" dist="1" entityID="Dtext_000N_206079.E27" relSemType="blor" />
+   <Predicate type="LOCATION_OF" indicatorType="PREP" begin="479" end="481" />
+   <Object maxDist="1" dist="1" entityID="Dtext_000N_206079.E26" relSemType="diap" />
+  </Predication>
+ </Utterance>
+ <Utterance id="Dtext_000N_206079.tx.7" section="tx" number="7" begin="533" end="593" text="A blood test for carbohydrate antigen (CA19-9) is positive.">
+  <Entity id="Dtext_000N_206079.E30" cui="C0018941" name="Hematologic Tests" semtypes="lbpr" text="blood test" score="1000" negated="false" begin="535" end="545" />
+  <Entity id="Dtext_000N_206079.E31" cui="C0443758" name="Carbohydrate antigen" semtypes="imft,orch" text="carbohydrate antigen" score="1000" negated="false" begin="550" end="570" />
+  <Entity id="Dtext_000N_206079.E32" cui="C0006613" name="CA-19-9 Antigen" semtypes="imft,orch" text="CA19-9" score="1000" negated="false" begin="572" end="578" />
+  <Entity id="Dtext_000N_206079.E33" cui="C0439178" name="percent positive cells" semtypes="qnco" text="positive" score="1000" negated="false" begin="583" end="591" />
+  <Predication id="Dtext_000N_206079.P4" negated="false" inferred="false">
+   <Subject maxDist="0" dist="0" entityID="Dtext_000N_206079.E32" relSemType="imft" />
+   <Predicate type="ISA" indicatorType="SPEC" begin="550" end="578" />
+   <Object maxDist="0" dist="0" entityID="Dtext_000N_206079.E31" relSemType="imft" />
+  </Predication>
+ </Utterance>
+ <Utterance id="Dtext_000N_206079.tx.8" section="tx" number="8" begin="593" end="709" text="The patient is admitted to the intensive care unit (ICU) and undergoes surgical decompression of the biliary tract.">
+  <Entity id="Dtext_000N_206079.E34" cui="C0030705" name="Patients" semtypes="podg" text="patient" score="1000" negated="false" begin="597" end="604" />
+  <Entity id="Dtext_000N_206079.E35" cui="C0021708" name="intensive care unit" semtypes="hcro,mnob" text="intensive care unit" score="1000" negated="false" begin="624" end="643" />
+  <Entity id="Dtext_000N_206079.E36" cui="C0376530" name="Decompression, Surgical" semtypes="topp" text="surgical decompression" score="1000" negated="false" begin="664" end="686" />
+  <Entity id="Dtext_000N_206079.E37" cui="C0521378" name="biliary" semtypes="ftcn" text="biliary" score="888" negated="false" begin="694" end="701" />
+  <Entity id="Dtext_000N_206079.E38" cui="C1185740" name="Tract" semtypes="bpoc" text="tract" score="888" negated="false" begin="702" end="707" />
+  <Predication id="Dtext_000N_206079.P5" negated="false" inferred="false">
+   <Subject maxDist="2" dist="1" entityID="Dtext_000N_206079.E36" relSemType="topp" />
+   <Predicate type="TREATS" indicatorType="VERB" begin="654" end="663" />
+   <Object maxDist="2" dist="2" entityID="Dtext_000N_206079.E34" relSemType="podg" />
+  </Predication>
+ </Utterance>
+ <Utterance id="Dtext_000N_206079.tx.9" section="tx" number="9" begin="709" end="759" text="He is placed on total parenteral nutrition (TPN).">
+  <Entity id="Dtext_000N_206079.E39" cui="C0030548" name="Parenteral Nutrition, Total" semtypes="topp" text="total parenteral nutrition" score="1000" negated="false" begin="725" end="751" />
+ </Utterance>
+ <Utterance id="Dtext_000N_206079.tx.10" section="tx" number="10" begin="759" end="856" text="On day 4 after admission, his intravenous access site is found to be erythematous and edematous.">
+  <Entity id="Dtext_000N_206079.E40" cui="C3840892" name="Day 4" semtypes="fndg" text="day 4" score="1000" negated="false" begin="762" end="767" />
+  <Entity id="Dtext_000N_206079.E41" cui="C0348016" name="Intravenous" semtypes="spco" text="intravenous" score="851" negated="false" begin="789" end="800" />
+  <Entity id="Dtext_000N_206079.E42" cui="C0444454" name="Access" semtypes="spco" text="access" score="851" negated="false" begin="801" end="807" />
+  <Entity id="Dtext_000N_206079.E43" cui="C0205145" name="Site" semtypes="spco" text="site" score="851" negated="false" begin="808" end="812" />
+  <Entity id="Dtext_000N_206079.E44" cui="C0332476" name="erythematous" semtypes="ftcn" text="erythematous" score="1000" negated="false" begin="828" end="840" />
+  <Entity id="Dtext_000N_206079.E45" cui="C0013604" name="Edema" semtypes="sosy" text="edematous" score="1000" negated="false" begin="845" end="854" />
+ </Utterance>
+ <Utterance id="Dtext_000N_206079.tx.11" section="tx" number="11" begin="856" end="975" text="Which of the following microorganisms is most likely responsible for this patient&#226;  s intravenous (IV) site infection?">
+  <Entity id="Dtext_000N_206079.E46" cui="C0231290" name="Status post" semtypes="tmco" text="following" score="888" negated="false" begin="869" end="878" />
+  <Entity id="Dtext_000N_206079.E47" cui="C0445623" name="Microorganism" semtypes="orgm" text="microorganisms" score="888" negated="false" begin="879" end="893" />
+  <Entity id="Dtext_000N_206079.E48" cui="C0750501" name="most likely" semtypes="idcn" text="most likely" score="734" negated="false" begin="897" end="908" />
+  <Entity id="Dtext_000N_206079.E49" cui="C0348016" name="Intravenous" semtypes="spco" text="intravenous" score="736" negated="false" begin="942" end="953" />
+  <Entity id="Dtext_000N_206079.E50" cui="C0205145" name="Site" semtypes="spco" text="site" score="736" negated="false" begin="959" end="963" />
+ </Utterance>
+ <Utterance id="Dtext_000N_206079.tx.12" section="tx" number="12" begin="975" end="1174" text="Option: {&#39;A&#39;: &#39;Hepatitis B virus&#39;, &#39;B&#39;: &#39;E. coli&#39;, &#39;C&#39;: &#39;Malassezia furfur&#39;, &#39;D&#39;: &#39;Candida parapsilosis&#39;, &#39;E&#39;: &#39;Pseudomonas aeruginosa&#39;} Please explain your answer and why the other options are wrong">
+  <Entity id="Dtext_000N_206079.E51" cui="C1518601" name="Options" semtypes="ftcn" text="Option" score="1000" negated="false" begin="975" end="981" />
+  <Entity id="Dtext_000N_206079.E52" cui="C0019169" name="Hepatitis B Virus" semtypes="virs" text="Hepatitis B virus" score="1000" negated="false" begin="990" end="1007" />
+  <Entity id="Dtext_000N_206079.E53" cui="C0014834" name="Escherichia coli" semtypes="bact" text="E. coli" score="1000" negated="false" begin="1016" end="1023" />
+  <Entity id="Dtext_000N_206079.E54" cui="C0032030" name="Malassezia furfur" semtypes="fngs" text="Malassezia furfur" score="1000" negated="false" begin="1032" end="1049" />
+  <Entity id="Dtext_000N_206079.E55" cui="C0319878" name="Candida parapsilosis" semtypes="fngs" text="Candida parapsilosis" score="1000" negated="false" begin="1058" end="1078" />
+  <Entity id="Dtext_000N_206079.E56" cui="C0033809" name="Pseudomonas aeruginosa" semtypes="bact" text="Pseudomonas aeruginosa" score="1000" negated="false" begin="1087" end="1109" />
+  <Entity id="Dtext_000N_206079.E57" cui="C1706817" name="Response (statement)" semtypes="inpr" text="answer" score="1000" negated="false" begin="1132" end="1138" />
+  <Entity id="Dtext_000N_206079.E58" cui="C1518601" name="Options" semtypes="ftcn" text="options" score="1000" negated="false" begin="1157" end="1164" />
+  <Entity id="Dtext_000N_206079.E59" cui="C3827420" name="Wrong" semtypes="qlco" text="wrong" score="1000" negated="false" begin="1169" end="1174" />
+ </Utterance>
+</Document>
+</SemRepAnnotation>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SemRepAnnotation PUBLIC "-//NLM//DTD SemRep Output//EN" "http://semrep.nlm.nih.gov/DTD/SemRepXML_v1.8.dtd">
+<SemRepAnnotation>
+ <Document id="Dtext_000N_206079" text="ERROR [3710]: USMLE question: A 71-year-old male is brought to the emergency room by his caretaker and presents with difficulty breathing, muscle rigidity in the face, neck, back and upper extremities, and profuse sweating. The intern notes a large wound on his head near the back of his right ear which his caretaker had bandaged up. The caretaker explains that the wound was the result of a fall while walking in his backyard. The intern performs a quick physical exam and observes increased reflexes. The patient was intubated to assist in his breathing and was given diazepam, metronidazole, and an immunoglobulin after the blood work came back. Which of the following neurotransmitters is affected in this patient? Option: {&#39;A&#39;: &#39;Glycine&#39;, &#39;B&#39;: &#39;Acetylcholine&#39;, &#39;C&#39;: &#39;Dopamine&#39;, &#39;D&#39;: &#39;Epinephrine&#39;, &#39;E&#39;: &#39;Serotonin&#39;} Please explain your answer and why the other options are wrong" >
+ <Utterance id="Dtext_000N_206079.tx.1" section="tx" number="1" begin="0" end="224" text="ERROR [3710]: USMLE question: A 71-year-old male is brought to the emergency room by his caretaker and presents with difficulty breathing, muscle rigidity in the face, neck, back and upper extremities, and profuse sweating.">
+  <Entity id="Dtext_000N_206079.E1" cui="C0743559" name="error" semtypes="qlco" text="ERROR" score="1000" negated="false" begin="0" end="5" />
+  <Entity id="Dtext_000N_206079.E2" cui="C0439234" name="year" semtypes="tmco" text="year" score="833" negated="false" begin="35" end="39" />
+  <Entity id="Dtext_000N_206079.E3" cui="C0580836" name="Old" semtypes="tmco" text="old" score="833" negated="false" begin="40" end="43" />
+  <Entity id="Dtext_000N_206079.E4" cui="C0086582" name="Males" semtypes="orga" text="male" score="833" negated="false" begin="44" end="48" />
+  <Entity id="Dtext_000N_206079.E5" cui="C0562508" name="Accident and Emergency department" semtypes="hcro,mnob" text="emergency room" score="1000" negated="false" begin="67" end="81" />
+  <Entity id="Dtext_000N_206079.E6" cui="C0013404" name="Dyspnea" semtypes="sosy" text="difficulty breathing" score="1000" negated="false" begin="117" end="137" />
+  <Entity id="Dtext_000N_206079.E7" cui="C0026837" name="Muscle Rigidity" semtypes="sosy" text="muscle rigidity" score="1000" negated="false" begin="139" end="154" />
+  <Entity id="Dtext_000N_206079.E8" cui="C0015450" name="Face" semtypes="blor" text="face" score="1000" negated="false" begin="162" end="166" />
+  <Entity id="Dtext_000N_206079.E9" cui="C0027530" name="Neck" semtypes="blor" text="neck" score="1000" negated="false" begin="168" end="172" />
+  <Entity id="Dtext_000N_206079.E10" cui="C0004600" name="Back" semtypes="blor" text="back" score="1000" negated="false" begin="174" end="178" />
+  <Entity id="Dtext_000N_206079.E11" cui="C1140618" name="Upper Extremity" semtypes="bpoc" text="upper extremities" score="1000" negated="false" begin="183" end="200" />
+  <Entity id="Dtext_000N_206079.E12" cui="C0700590" name="Increased sweating" semtypes="fndg" text="profuse sweating" score="1000" negated="false" begin="206" end="222" />
+ </Utterance>
+ <Utterance id="Dtext_000N_206079.tx.2" section="tx" number="2" begin="224" end="335" text="The intern notes a large wound on his head near the back of his right ear which his caretaker had bandaged up.">
+  <Entity id="Dtext_000N_206079.E13" cui="C1144859" name="Intern" semtypes="prog" text="intern" score="1000" negated="false" begin="228" end="234" />
+  <Entity id="Dtext_000N_206079.E14" cui="C0549177" name="Large" semtypes="qnco" text="large" score="888" negated="false" begin="243" end="248" />
+  <Entity id="Dtext_000N_206079.E15" cui="C0043250" name="Injury wounds" semtypes="inpo" text="wound" score="888" negated="false" begin="249" end="254" />
+  <Entity id="Dtext_000N_206079.E16" cui="C0018670" name="Head" semtypes="blor" text="head" score="1000" negated="false" begin="262" end="266" />
+  <Entity id="Dtext_000N_206079.E17" cui="C0205095" name="Dorsal" semtypes="spco" text="back of" score="861" negated="false" begin="276" end="283" />
+  <Entity id="Dtext_000N_206079.E18" cui="C0205090" name="Right" semtypes="spco" text="right" score="861" negated="false" begin="288" end="293" />
+  <Entity id="Dtext_000N_206079.E19" cui="C0521421" name="Entire ear" semtypes="bpoc" text="ear" score="861" negated="false" begin="294" end="297" />
+  <Predication id="Dtext_000N_206079.P1" negated="false" inferred="false">
+   <Subject maxDist="3" dist="1" entityID="Dtext_000N_206079.E16" relSemType="blor" />
+   <Predicate type="LOCATION_OF" indicatorType="PREP" begin="255" end="257" />
+   <Object maxDist="2" dist="1" entityID="Dtext_000N_206079.E15" relSemType="inpo" />
+  </Predication>
+ </Utterance>
+ <Utterance id="Dtext_000N_206079.tx.3" section="tx" number="3" begin="335" end="429" text="The caretaker explains that the wound was the result of a fall while walking in his backyard.">
+  <Entity id="Dtext_000N_206079.E20" cui="C0043250" name="Injury wounds" semtypes="inpo" text="wound" score="1000" negated="false" begin="367" end="372" />
+  <Entity id="Dtext_000N_206079.E21" cui="C1274040" name="Result" semtypes="ftcn" text="result" score="1000" negated="false" begin="381" end="387" />
+  <Entity id="Dtext_000N_206079.E22" cui="C0085639" name="Falls" semtypes="fndg" text="fall" score="1000" negated="false" begin="393" end="397" />
+  <Entity id="Dtext_000N_206079.E23" cui="C0562731" name="Back yard" semtypes="geoa" text="backyard" score="1000" negated="false" begin="419" end="427" />
+ </Utterance>
+ <Utterance id="Dtext_000N_206079.tx.4" section="tx" number="4" begin="429" end="504" text="The intern performs a quick physical exam and observes increased reflexes.">
+  <Entity id="Dtext_000N_206079.E24" cui="C1144859" name="Intern" semtypes="prog" text="intern" score="1000" negated="false" begin="433" end="439" />
+  <Entity id="Dtext_000N_206079.E25" cui="C0456962" name="Rapid" semtypes="qlco" text="quick" score="901" negated="false" begin="451" end="456" />
+  <Entity id="Dtext_000N_206079.E26" cui="C0031809" name="Physical Examination" semtypes="hlca" text="physical exam" score="901" negated="false" begin="457" end="470" />
+  <Entity id="Dtext_000N_206079.E27" cui="C0151889" name="Hyperreflexia" semtypes="fndg" text="increased reflexes" score="1000" negated="false" begin="484" end="502" />
+  <Predication id="Dtext_000N_206079.P2" negated="false" inferred="false">
+   <Subject maxDist="2" dist="1" entityID="Dtext_000N_206079.E26" relSemType="hlca" />
+   <Predicate type="ADMINISTERED_TO" indicatorType="VERB" begin="440" end="448" />
+   <Object maxDist="1" dist="1" entityID="Dtext_000N_206079.E24" relSemType="humn" />
+  </Predication>
+ </Utterance>
+ <Utterance id="Dtext_000N_206079.tx.5" section="tx" number="5" begin="504" end="650" text="The patient was intubated to assist in his breathing and was given diazepam, metronidazole, and an immunoglobulin after the blood work came back.">
+  <Entity id="Dtext_000N_206079.E28" cui="C0030705" name="Patients" semtypes="podg" text="patient" score="1000" negated="false" begin="508" end="515" />
+  <Entity id="Dtext_000N_206079.E29" cui="C0004048" name="Inspiration function" semtypes="orgf" text="breathing" score="1000" negated="false" begin="547" end="556" />
+  <Entity id="Dtext_000N_206079.E30" cui="C0012010" name="Diazepam" semtypes="orch,phsu" text="diazepam" score="1000" negated="false" begin="571" end="579" />
+  <Entity id="Dtext_000N_206079.E31" cui="C0025872" name="Metronidazole" semtypes="orch,phsu" text="metronidazole" score="1000" negated="false" begin="581" end="594" />
+  <Entity id="Dtext_000N_206079.E32" cui="C0021027" name="Immunoglobulins" semtypes="aapp,imft" text="immunoglobulin" score="1000" negated="false" begin="603" end="617" />
+  <Entity id="Dtext_000N_206079.E33" cui="C0005767" name="Blood" semtypes="bdsu" text="blood" score="888" negated="false" begin="628" end="633" />
+  <Entity id="Dtext_000N_206079.E34" cui="C0043227" name="Work" semtypes="ocac" text="work" score="888" negated="false" begin="634" end="638" />
+  <Entity id="Dtext_000N_206079.E35" cui="C0004600" name="Back" semtypes="blor" text="back" score="1000" negated="false" begin="644" end="648" />
+  <Predication id="Dtext_000N_206079.P3" negated="false" inferred="false">
+   <Subject maxDist="5" dist="1" entityID="Dtext_000N_206079.E30" relSemType="orch" />
+   <Predicate type="ADMINISTERED_TO" indicatorType="VERB" begin="565" end="570" />
+   <Object maxDist="2" dist="2" entityID="Dtext_000N_206079.E28" relSemType="humn" />
+  </Predication>
+  <Predication id="Dtext_000N_206079.P4" negated="false" inferred="false">
+   <Subject maxDist="5" dist="1" entityID="Dtext_000N_206079.E32" relSemType="imft" />
+   <Predicate type="ADMINISTERED_TO" indicatorType="VERB" begin="565" end="570" />
+   <Object maxDist="2" dist="2" entityID="Dtext_000N_206079.E28" relSemType="humn" />
+  </Predication>
+  <Predication id="Dtext_000N_206079.P5" negated="false" inferred="false">
+   <Subject maxDist="5" dist="1" entityID="Dtext_000N_206079.E31" relSemType="orch" />
+   <Predicate type="ADMINISTERED_TO" indicatorType="VERB" begin="565" end="570" />
+   <Object maxDist="2" dist="2" entityID="Dtext_000N_206079.E28" relSemType="humn" />
+  </Predication>
+ </Utterance>
+ <Utterance id="Dtext_000N_206079.tx.6" section="tx" number="6" begin="650" end="720" text="Which of the following neurotransmitters is affected in this patient?">
+  <Entity id="Dtext_000N_206079.E36" cui="C0231290" name="Status post" semtypes="tmco" text="following" score="888" negated="false" begin="663" end="672" />
+  <Entity id="Dtext_000N_206079.E37" cui="C0027908" name="Neurotransmitters" semtypes="bacs" text="neurotransmitters" score="888" negated="false" begin="673" end="690" />
+  <Entity id="Dtext_000N_206079.E38" cui="C0030705" name="Patients" semtypes="podg" text="patient" score="1000" negated="false" begin="711" end="718" />
+ </Utterance>
+ <Utterance id="Dtext_000N_206079.tx.7" section="tx" number="7" begin="720" end="884" text="Option: {&#39;A&#39;: &#39;Glycine&#39;, &#39;B&#39;: &#39;Acetylcholine&#39;, &#39;C&#39;: &#39;Dopamine&#39;, &#39;D&#39;: &#39;Epinephrine&#39;, &#39;E&#39;: &#39;Serotonin&#39;} Please explain your answer and why the other options are wrong">
+  <Entity id="Dtext_000N_206079.E39" cui="C1518601" name="Options" semtypes="ftcn" text="Option" score="1000" negated="false" begin="720" end="726" />
+  <Entity id="Dtext_000N_206079.E40" cui="C0017890" name="Glycine" semtypes="aapp,bacs,phsu" text="Glycine" score="1000" negated="false" begin="735" end="742" />
+  <Entity id="Dtext_000N_206079.E41" cui="C0001041" name="Acetylcholine" semtypes="bacs,orch,phsu" text="Acetylcholine" score="1000" negated="false" begin="751" end="764" />
+  <Entity id="Dtext_000N_206079.E42" cui="C0013030" name="Dopamine" semtypes="bacs,orch,phsu" text="Dopamine" score="1000" negated="false" begin="773" end="781" />
+  <Entity id="Dtext_000N_206079.E43" cui="C0014563" name="Epinephrine" semtypes="horm,orch,phsu" text="Epinephrine" score="1000" negated="false" begin="790" end="801" />
+  <Entity id="Dtext_000N_206079.E44" cui="C0036751" name="Serotonin" semtypes="bacs,orch" text="Serotonin" score="1000" negated="false" begin="810" end="819" />
+  <Entity id="Dtext_000N_206079.E45" cui="C1706817" name="Response (statement)" semtypes="inpr" text="answer" score="1000" negated="false" begin="842" end="848" />
+  <Entity id="Dtext_000N_206079.E46" cui="C1518601" name="Options" semtypes="ftcn" text="options" score="1000" negated="false" begin="867" end="874" />
+  <Entity id="Dtext_000N_206079.E47" cui="C3827420" name="Wrong" semtypes="qlco" text="wrong" score="1000" negated="false" begin="879" end="884" />
+ </Utterance>
+</Document>
+</SemRepAnnotation>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SemRepAnnotation PUBLIC "-//NLM//DTD SemRep Output//EN" "http://semrep.nlm.nih.gov/DTD/SemRepXML_v1.8.dtd">
+<SemRepAnnotation>
+ <Document id="Dtext_000N_9843" text="ERROR [3711]: USMLE question: A 24-year-old gravida 2 para 0 presents to her physician at 15 weeks gestation to discuss the results of recent screening tests. She has no complaints and the current pregnancy has been uncomplicated. Her previous pregnancy terminated with spontaneous abortion in the first trimester. Her immunizations are up to date. Her vital signs are as follows: blood pressure 110/60 mm Hg, heart rate 78/min, respiratory rate 14/min, and temperature 36.8&#226;&#8222;&#402; (98.2&#226;&#8222;&#8240;). The physical examination is within normal limits. The laboratory screening tests show the following results: HBsAg negative HBcAg negative Anti-HBsAg positive HIV 1/2 AB negative VDRL positive What is the proper next step in the management of this patient? Option: {&#39;A&#39;: &#39;PCR for HBV DNA&#39;, &#39;B&#39;: &#39;T. pallidum hemagglutination assay&#39;, &#39;C&#39;: &#39;Prescription of benzylpenicillin&#39;, &#39;D&#39;: &#39;HBV vaccination&#39;, &#39;E&#39;: &#39;Full serum panel for HBV&#39;} Please explain your answer and why the other options are wrong" >
+ <Utterance id="Dtext_000N_9843.tx.1" section="tx" number="1" begin="0" end="159" text="ERROR [3711]: USMLE question: A 24-year-old gravida 2 para 0 presents to her physician at 15 weeks gestation to discuss the results of recent screening tests.">
+  <Entity id="Dtext_000N_9843.E1" cui="C0743559" name="error" semtypes="qlco" text="ERROR" score="1000" negated="false" begin="0" end="5" />
+  <Entity id="Dtext_000N_9843.E2" cui="C0439234" name="year" semtypes="tmco" text="year" score="781" negated="false" begin="35" end="39" />
+  <Entity id="Dtext_000N_9843.E3" cui="C0580836" name="Old" semtypes="tmco" text="old" score="781" negated="false" begin="40" end="43" />
+  <Entity id="Dtext_000N_9843.E4" cui="C0232997" name="Previous pregnancies 2" semtypes="fndg" text="gravida 2" score="781" negated="false" begin="44" end="53" />
+  <Entity id="Dtext_000N_9843.E5" cui="C0030563" name="Parity" semtypes="fndg" text="para" score="781" negated="false" begin="54" end="58" />
+  <Entity id="Dtext_000N_9843.E6" cui="C0031831" name="Physicians" semtypes="prog" text="physician" score="1000" negated="false" begin="77" end="86" />
+  <Entity id="Dtext_000N_9843.E7" cui="C1135241" name="Weeks pregnant" semtypes="fndg" text="weeks gestation" score="901" negated="false" begin="93" end="108" />
+  <Entity id="Dtext_000N_9843.E8" cui="C1274040" name="Result" semtypes="ftcn" text="results" score="966" negated="false" begin="124" end="131" />
+  <Entity id="Dtext_000N_9843.E9" cui="C0332185" name="Recent" semtypes="tmco" text="recent" score="901" negated="false" begin="135" end="141" />
+  <Entity id="Dtext_000N_9843.E10" cui="C0871311" name="screening tests" semtypes="hlca" text="screening tests" score="901" negated="false" begin="142" end="157" />
+ </Utterance>
+ <Utterance id="Dtext_000N_9843.tx.2" section="tx" number="2" begin="159" end="231" text="She has no complaints and the current pregnancy has been uncomplicated.">
+  <Entity id="Dtext_000N_9843.E11" cui="C0277786" name="Chief complaint (finding)" semtypes="fndg" text="complaints" score="1000" negated="false" begin="170" end="180" />
+  <Entity id="Dtext_000N_9843.E12" cui="C0032961" name="Pregnancy" semtypes="orgf" text="pregnancy" score="861" negated="false" begin="197" end="206" />
+  <Entity id="Dtext_000N_9843.E13" cui="C0443334" name="Uncomplicated" semtypes="qlco" text="uncomplicated" score="1000" negated="false" begin="216" end="229" />
+ </Utterance>
+ <Utterance id="Dtext_000N_9843.tx.3" section="tx" number="3" begin="231" end="315" text="Her previous pregnancy terminated with spontaneous abortion in the first trimester.">
+  <Entity id="Dtext_000N_9843.E14" cui="C0600457" name="Gravidity" semtypes="fndg" text="previous pregnancy" score="958" negated="false" begin="235" end="253" />
+  <Entity id="Dtext_000N_9843.E15" cui="C0000786" name="Spontaneous abortion" semtypes="patf" text="spontaneous abortion" score="1000" negated="false" begin="270" end="290" />
+  <Entity id="Dtext_000N_9843.E16" cui="C0032979" name="Pregnancy Trimester, First" semtypes="tmco" text="first trimester" score="1000" negated="false" begin="298" end="313" />
+ </Utterance>
+ <Utterance id="Dtext_000N_9843.tx.4" section="tx" number="4" begin="315" end="349" text="Her immunizations are up to date.">
+  <Entity id="Dtext_000N_9843.E17" cui="C0020971" name="Immunization" semtypes="topp" text="immunizations" score="1000" negated="false" begin="319" end="332" />
+ </Utterance>
+ <Utterance id="Dtext_000N_9843.tx.5" section="tx" number="5" begin="349" end="489" text="Her vital signs are as follows: blood pressure 110/60 mm Hg, heart rate 78/min, respiratory rate 14/min, and temperature 36.8&#226; &#402; (98.2&#226;  ).">
+  <Entity id="Dtext_000N_9843.E18" cui="C0518766" name="Vital signs" semtypes="clna" text="vital signs" score="1000" negated="false" begin="353" end="364" />
+  <Entity id="Dtext_000N_9843.E19" cui="C0005823" name="Blood Pressure" semtypes="orgf" text="blood pressure" score="790" negated="false" begin="381" end="395" />
+  <Entity id="Dtext_000N_9843.E20" cui="C0439475" name="mmHg" semtypes="qnco" text="mm Hg" score="790" negated="false" begin="403" end="408" />
+  <Entity id="Dtext_000N_9843.E21" cui="C0018810" name="heart rate" semtypes="clna" text="heart rate" score="824" negated="false" begin="410" end="420" />
+  <Entity id="Dtext_000N_9843.E22" cui="C0702093" name="Per Minute" semtypes="tmco" text="min" score="824" negated="false" begin="424" end="427" />
+  <Entity id="Dtext_000N_9843.E23" cui="C0231832" name="Respiratory rate" semtypes="clna" text="respiratory rate" score="824" negated="false" begin="429" end="445" />
+  <Entity id="Dtext_000N_9843.E24" cui="C0702093" name="Per Minute" semtypes="tmco" text="min" score="824" negated="false" begin="449" end="452" />
+  <Entity id="Dtext_000N_9843.E25" cui="C0039476" name="Temperature" semtypes="qnco" text="temperature" score="583" negated="false" begin="458" end="469" />
+ </Utterance>
+ <Utterance id="Dtext_000N_9843.tx.6" section="tx" number="6" begin="489" end="539" text="The physical examination is within normal limits.">
+  <Entity id="Dtext_000N_9843.E26" cui="C0031809" name="Physical Examination" semtypes="hlca" text="physical examination" score="1000" negated="false" begin="493" end="513" />
+  <Entity id="Dtext_000N_9843.E27" cui="C0442816" name="Normal limits" semtypes="fndg" text="normal limits" score="1000" negated="false" begin="524" end="537" />
+ </Utterance>
+ <Utterance id="Dtext_000N_9843.tx.7" section="tx" number="7" begin="539" end="746" text="The laboratory screening tests show the following results: HBsAg negative HBcAg negative Anti-HBsAg positive HIV 1/2 AB negative VDRL positive What is the proper next step in the management of this patient?">
+  <Entity id="Dtext_000N_9843.E28" cui="C0220908" name="Screening procedure" semtypes="hlca" text="screening" score="901" negated="false" begin="554" end="563" />
+  <Entity id="Dtext_000N_9843.E29" cui="C0022885" name="Laboratory Procedures" semtypes="lbpr" text="laboratory screening tests" score="901" negated="false" begin="543" end="569" />
+  <Entity id="Dtext_000N_9843.E30" cui="C0231290" name="Status post" semtypes="tmco" text="following" score="872" negated="false" begin="579" end="588" />
+  <Entity id="Dtext_000N_9843.E31" cui="C1274040" name="Result" semtypes="ftcn" text="results" score="872" negated="false" begin="589" end="596" />
+  <Entity id="Dtext_000N_9843.E32" cui="C0919711" name="Hepatitis B surface antigen negative" semtypes="lbtr" text="HBsAg negative" score="579" negated="false" begin="598" end="612" />
+  <Entity id="Dtext_000N_9843.E33" cui="C0019166" name="Hepatitis B Core Antigen" semtypes="imft" text="HBcAg" score="579" negated="false" begin="613" end="618" />
+  <Entity id="Dtext_000N_9843.E34" cui="C0369496" name="HIV 1 &amp; 2 Ab" semtypes="aapp,imft" text="HIV 1/2 AB" score="579" negated="false" begin="648" end="658" />
+  <Entity id="Dtext_000N_9843.E35" cui="C0241659" name="vdrl positive" semtypes="lbtr" text="positive HIV 1/2 AB negative VDRL" score="579" negated="false" begin="639" end="672" />
+  <Entity id="Dtext_000N_9843.E36" cui="C0205117" name="Adjacent" semtypes="spco" text="next" score="750" negated="false" begin="701" end="705" />
+  <Entity id="Dtext_000N_9843.E37" cui="C1705117" name="Increment" semtypes="qnco" text="step" score="750" negated="false" begin="706" end="710" />
+  <Entity id="Dtext_000N_9843.E38" cui="C0001554" name="Administration occupational activities" semtypes="ocac" text="management" score="1000" negated="false" begin="718" end="728" />
+  <Entity id="Dtext_000N_9843.E39" cui="C0030705" name="Patients" semtypes="podg" text="patient" score="1000" negated="false" begin="737" end="744" />
+ </Utterance>
+ <Utterance id="Dtext_000N_9843.tx.8" section="tx" number="8" begin="746" end="982" text="Option: {&#39;A&#39;: &#39;PCR for HBV DNA&#39;, &#39;B&#39;: &#39;T. pallidum hemagglutination assay&#39;, &#39;C&#39;: &#39;Prescription of benzylpenicillin&#39;, &#39;D&#39;: &#39;HBV vaccination&#39;, &#39;E&#39;: &#39;Full serum panel for HBV&#39;} Please explain your answer and why the other options are wrong">
+  <Entity id="Dtext_000N_9843.E40" cui="C1518601" name="Options" semtypes="ftcn" text="Option" score="1000" negated="false" begin="746" end="752" />
+  <Entity id="Dtext_000N_9843.E41" cui="C0032520" name="Polymerase Chain Reaction" semtypes="mbrt" text="PCR" score="1000" negated="false" begin="761" end="764" />
+  <Entity id="Dtext_000N_9843.E42" cui="C0012854" name="DNA" semtypes="bacs,nnon" text="DNA" score="861" negated="false" begin="773" end="776" />
+  <Entity id="Dtext_000N_9843.E43" cui="C0017651" name="Globus Pallidus" semtypes="bpoc" text="pallidum" score="861" negated="false" begin="788" end="796" />
+  <Entity id="Dtext_000N_9843.E44" cui="C0018905" name="Hemagglutination test" semtypes="lbpr" text="hemagglutination assay" score="861" negated="false" begin="797" end="819" />
+  <Entity id="Dtext_000N_9843.E45" cui="C0033080" name="Prescription procedure" semtypes="hlca" text="Prescription" score="1000" negated="false" begin="828" end="840" />
+  <Entity id="Dtext_000N_9843.E46" cui="C0030827" name="Penicillin G" semtypes="antb,orch" text="benzylpenicillin" score="1000" negated="false" begin="844" end="860" />
+  <Entity id="Dtext_000N_9843.E47" cui="C0042196" name="Vaccination" semtypes="topp" text="vaccination" score="861" negated="false" begin="873" end="884" />
+  <Entity id="Dtext_000N_9843.E48" cui="C0443225" name="Full" semtypes="qlco" text="Full" score="851" negated="false" begin="893" end="897" />
+  <Entity id="Dtext_000N_9843.E49" cui="C0229671" name="Serum" semtypes="bdsu" text="serum" score="851" negated="false" begin="898" end="903" />
+  <Entity id="Dtext_000N_9843.E50" cui="C0441833" name="Groups" semtypes="idcn" text="panel" score="851" negated="false" begin="904" end="909" />
+  <Entity id="Dtext_000N_9843.E51" cui="C1706817" name="Response (statement)" semtypes="inpr" text="answer" score="1000" negated="false" begin="940" end="946" />
+  <Entity id="Dtext_000N_9843.E52" cui="C1518601" name="Options" semtypes="ftcn" text="options" score="1000" negated="false" begin="965" end="972" />
+  <Entity id="Dtext_000N_9843.E53" cui="C3827420" name="Wrong" semtypes="qlco" text="wrong" score="1000" negated="false" begin="977" end="982" />
+ </Utterance>
+</Document>
+</SemRepAnnotation>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SemRepAnnotation PUBLIC "-//NLM//DTD SemRep Output//EN" "http://semrep.nlm.nih.gov/DTD/SemRepXML_v1.8.dtd">
+<SemRepAnnotation>
+ <Document id="Dtext_000N_5962" text="ERROR [3741]: USMLE question: A 73-year-old man is brought to the emergency department by ambulance after being found to be non-communicative by his family during dinner. On presentation he appears to be alert, though he is confused and cannot follow instructions. When he tries to speak, he vocalizes a string of fluent but unintelligible syllables. Given this presentation, his physician decides to administer tissue plasminogen activator to this patient. This intervention best represents which of the following principles? Option: {&#39;A&#39;: &#39;Primary prevention&#39;, &#39;B&#39;: &#39;Seconday prevention&#39;, &#39;C&#39;: &#39;Tertiary prevention&#39;, &#39;D&#39;: &#39;Quartenary prevention&#39;, &#39;E&#39;: &#39;This does not represent prevention&#39;} Please explain your answer and why the other options are wrong" >
+ <Utterance id="Dtext_000N_5962.tx.1" section="tx" number="1" begin="0" end="171" text="ERROR [3741]: USMLE question: A 73-year-old man is brought to the emergency department by ambulance after being found to be non-communicative by his family during dinner.">
+  <Entity id="Dtext_000N_5962.E1" cui="C0743559" name="error" semtypes="qlco" text="ERROR" score="1000" negated="false" begin="0" end="5" />
+  <Entity id="Dtext_000N_5962.E2" cui="C0439234" name="year" semtypes="tmco" text="year" score="775" negated="false" begin="35" end="39" />
+  <Entity id="Dtext_000N_5962.E3" cui="C0580836" name="Old" semtypes="tmco" text="old" score="775" negated="false" begin="40" end="43" />
+  <Entity id="Dtext_000N_5962.E4" cui="C0025266" name="Male population group" semtypes="popg" text="man" score="775" negated="false" begin="44" end="47" />
+  <Entity id="Dtext_000N_5962.E5" cui="C1704729" name="Department" semtypes="orgt" text="department" score="888" negated="false" begin="76" end="86" />
+  <Entity id="Dtext_000N_5962.E6" cui="C0002422" name="Ambulances" semtypes="medd" text="ambulance" score="1000" negated="false" begin="90" end="99" />
+  <Entity id="Dtext_000N_5962.E7" cui="C1518422" name="Negation" semtypes="ftcn" text="non" score="888" negated="false" begin="124" end="127" />
+  <Entity id="Dtext_000N_5962.E8" cui="C0009452" name="Communication" semtypes="socb" text="communicative" score="888" negated="false" begin="128" end="141" />
+  <Entity id="Dtext_000N_5962.E9" cui="C0015576" name="Family" semtypes="famg" text="family" score="1000" negated="false" begin="149" end="155" />
+  <Entity id="Dtext_000N_5962.E10" cui="C2699739" name="Supper" semtypes="dora" text="dinner" score="1000" negated="false" begin="163" end="169" />
+ </Utterance>
+ <Utterance id="Dtext_000N_5962.tx.2" section="tx" number="2" begin="171" end="265" text="On presentation he appears to be alert, though he is confused and cannot follow instructions.">
+  <Entity id="Dtext_000N_5962.E11" cui="C0449450" name="Presentation" semtypes="idcn" text="presentation" score="1000" negated="false" begin="174" end="186" />
+  <Entity id="Dtext_000N_5962.E12" cui="C0302828" name="Instruction [Publication Type]" semtypes="inpr" text="instructions" score="1000" negated="false" begin="251" end="263" />
+ </Utterance>
+ <Utterance id="Dtext_000N_5962.tx.3" section="tx" number="3" begin="265" end="351" text="When he tries to speak, he vocalizes a string of fluent but unintelligible syllables.">
+  <Entity id="Dtext_000N_5962.E13" cui="C0870569" name="fluency" semtypes="qlco" text="fluent" score="928" negated="false" begin="314" end="320" />
+  <Entity id="Dtext_000N_5962.E14" cui="C3842809" name="Unintelligible" semtypes="fndg" text="unintelligible" score="888" negated="false" begin="325" end="339" />
+  <Entity id="Dtext_000N_5962.E15" cui="C0871464" name="Syllable" semtypes="inpr" text="syllables" score="888" negated="false" begin="340" end="349" />
+ </Utterance>
+ <Utterance id="Dtext_000N_5962.tx.4" section="tx" number="4" begin="351" end="458" text="Given this presentation, his physician decides to administer tissue plasminogen activator to this patient.">
+  <Entity id="Dtext_000N_5962.E16" cui="C0449450" name="Presentation" semtypes="idcn" text="presentation" score="1000" negated="false" begin="362" end="374" />
+  <Entity id="Dtext_000N_5962.E17" cui="C0031831" name="Physicians" semtypes="prog" text="physician" score="1000" negated="false" begin="380" end="389" />
+  <Entity id="Dtext_000N_5962.E18" cui="C0032143" name="alteplase" semtypes="aapp,enzy,phsu" text="tissue plasminogen activator" score="1000" negated="false" begin="412" end="440" />
+  <Entity id="Dtext_000N_5962.E19" cui="C0030705" name="Patients" semtypes="podg" text="patient" score="1000" negated="false" begin="449" end="456" />
+  <Predication id="Dtext_000N_5962.P1" negated="false" inferred="false">
+   <Subject maxDist="2" dist="1" entityID="Dtext_000N_5962.E18" relSemType="enzy" />
+   <Predicate type="ADMINISTERED_TO" indicatorType="VERB" begin="401" end="411" />
+   <Object maxDist="2" dist="1" entityID="Dtext_000N_5962.E17" relSemType="humn" />
+  </Predication>
+ </Utterance>
+ <Utterance id="Dtext_000N_5962.tx.5" section="tx" number="5" begin="458" end="527" text="This intervention best represents which of the following principles?">
+  <Entity id="Dtext_000N_5962.E20" cui="C0184661" name="Interventional procedure" semtypes="topp" text="intervention" score="1000" negated="false" begin="463" end="475" />
+  <Entity id="Dtext_000N_5962.E21" cui="C0231290" name="Status post" semtypes="tmco" text="following" score="694" negated="false" begin="505" end="514" />
+  <Coreference id="Dtext_000N_5962.C2">
+   <Anaphor entityID="Dtext_000N_5962.E20" />
+   <Antecedent entityID="Dtext_000N_5962.E18" />
+  </Coreference>
+ </Utterance>
+ <Utterance id="Dtext_000N_5962.tx.6" section="tx" number="6" begin="527" end="754" text="Option: {&#39;A&#39;: &#39;Primary prevention&#39;, &#39;B&#39;: &#39;Seconday prevention&#39;, &#39;C&#39;: &#39;Tertiary prevention&#39;, &#39;D&#39;: &#39;Quartenary prevention&#39;, &#39;E&#39;: &#39;This does not represent prevention&#39;} Please explain your answer and why the other options are wrong">
+  <Entity id="Dtext_000N_5962.E22" cui="C1518601" name="Options" semtypes="ftcn" text="Option" score="1000" negated="false" begin="527" end="533" />
+  <Entity id="Dtext_000N_5962.E23" cui="C0033144" name="Primary Prevention" semtypes="topp" text="Primary prevention" score="1000" negated="false" begin="542" end="560" />
+  <Entity id="Dtext_000N_5962.E24" cui="C0199176" name="Prophylactic treatment" semtypes="topp" text="prevention" score="861" negated="false" begin="578" end="588" />
+  <Entity id="Dtext_000N_5962.E25" cui="C0679700" name="Tertiary Prevention" semtypes="topp" text="Tertiary prevention" score="1000" negated="false" begin="597" end="616" />
+  <Entity id="Dtext_000N_5962.E26" cui="C0199176" name="Prophylactic treatment" semtypes="topp" text="prevention" score="861" negated="false" begin="636" end="646" />
+  <Entity id="Dtext_000N_5962.E27" cui="C1518422" name="Negation" semtypes="ftcn" text="not" score="1000" negated="false" begin="665" end="668" />
+  <Entity id="Dtext_000N_5962.E28" cui="C0199176" name="Prophylactic treatment" semtypes="topp" text="prevention" score="1000" negated="false" begin="679" end="689" />
+  <Entity id="Dtext_000N_5962.E29" cui="C1706817" name="Response (statement)" semtypes="inpr" text="answer" score="1000" negated="false" begin="712" end="718" />
+  <Entity id="Dtext_000N_5962.E30" cui="C1518601" name="Options" semtypes="ftcn" text="options" score="1000" negated="false" begin="737" end="744" />
+  <Entity id="Dtext_000N_5962.E31" cui="C3827420" name="Wrong" semtypes="qlco" text="wrong" score="1000" negated="false" begin="749" end="754" />
+ </Utterance>
+</Document>
+</SemRepAnnotation>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SemRepAnnotation PUBLIC "-//NLM//DTD SemRep Output//EN" "http://semrep.nlm.nih.gov/DTD/SemRepXML_v1.8.dtd">
+<SemRepAnnotation>
+ <Document id="Dtext_000N_2001" text="ERROR [3747]: USMLE question: A 36-year-old G1P0 Caucasian woman in her 12th week of pregnancy presents to her obstetrician with vaginal bleeding. She also reports 3 episodes of non-bloody, non-bilious emesis. She failed to show up for her last 2 pre-natal visits due to work. Her past medical history is notable for obesity and type I diabetes mellitus. Her family history is notable for ovarian cancer in her mother and endometrial cancer in her maternal grandmother. On examination, her uterus is at 16 weeks in size and she has mild tenderness to palpation on her right suprapubic region. A transvaginal ultrasound in this patient would most likely reveal which of the following? Option: {&#39;A&#39;: &#39;Fetal parts&#39;, &#39;B&#39;: &#39;Intrauterine cystic mass&#39;, &#39;C&#39;: &#39;Large intramural masses&#39;, &#39;D&#39;: &#39;Non-viable fetus&#39;, &#39;E&#39;: &#39;Unilateral ovarian cyst&#39;} Please explain your answer and why the other options are wrong" >
+ <Utterance id="Dtext_000N_2001.tx.1" section="tx" number="1" begin="0" end="147" text="ERROR [3747]: USMLE question: A 36-year-old G1P0 Caucasian woman in her 12th week of pregnancy presents to her obstetrician with vaginal bleeding.">
+  <Entity id="Dtext_000N_2001.E1" cui="C0743559" name="error" semtypes="qlco" text="ERROR" score="1000" negated="false" begin="0" end="5" />
+  <Entity id="Dtext_000N_2001.E2" cui="C0439234" name="year" semtypes="tmco" text="year" score="751" negated="false" begin="35" end="39" />
+  <Entity id="Dtext_000N_2001.E3" cui="C0580836" name="Old" semtypes="tmco" text="old" score="751" negated="false" begin="40" end="43" />
+  <Entity id="Dtext_000N_2001.E4" cui="C0007457" name="Caucasoid Race" semtypes="popg" text="Caucasian" score="751" negated="false" begin="49" end="58" />
+  <Entity id="Dtext_000N_2001.E5" cui="C0043210" name="Woman" semtypes="popg" text="woman" score="751" negated="false" begin="59" end="64" />
+  <Entity id="Dtext_000N_2001.E6" cui="C0332174" name="Weekly" semtypes="tmco" text="week" score="861" negated="false" begin="77" end="81" />
+  <Entity id="Dtext_000N_2001.E7" cui="C0032961" name="Pregnancy" semtypes="orgf" text="pregnancy" score="1000" negated="false" begin="85" end="94" />
+  <Entity id="Dtext_000N_2001.E8" cui="C0334897" name="Obstetrician" semtypes="prog" text="obstetrician" score="1000" negated="false" begin="111" end="123" />
+  <Entity id="Dtext_000N_2001.E9" cui="C2979982" name="Vaginal Hemorrhage" semtypes="patf" text="vaginal bleeding" score="1000" negated="false" begin="129" end="145" />
+  <Predication id="Dtext_000N_2001.P1" negated="false" inferred="false">
+   <Subject maxDist="1" dist="1" entityID="Dtext_000N_2001.E9" relSemType="patf" />
+   <Predicate type="PROCESS_OF" indicatorType="PREP" begin="124" end="128" />
+   <Object maxDist="6" dist="1" entityID="Dtext_000N_2001.E8" relSemType="humn" />
+  </Predication>
+ </Utterance>
+ <Utterance id="Dtext_000N_2001.tx.2" section="tx" number="2" begin="147" end="210" text="She also reports 3 episodes of non-bloody, non-bilious emesis.">
+  <Entity id="Dtext_000N_2001.E10" cui="C0332189" name="Episode of" semtypes="tmco" text="episodes" score="861" negated="false" begin="166" end="174" />
+  <Entity id="Dtext_000N_2001.E11" cui="C1518422" name="Negation" semtypes="ftcn" text="non" score="785" negated="false" begin="178" end="181" />
+  <Entity id="Dtext_000N_2001.E12" cui="C0333275" name="Hemorrhagic" semtypes="qlco" text="bloody" score="785" negated="false" begin="182" end="188" />
+  <Entity id="Dtext_000N_2001.E13" cui="C0232599" name="Vomiting bile" semtypes="fndg" text="bilious emesis" score="785" negated="false" begin="194" end="208" />
+ </Utterance>
+ <Utterance id="Dtext_000N_2001.tx.3" section="tx" number="3" begin="210" end="277" text="She failed to show up for her last 2 pre-natal visits due to work.">
+  <Entity id="Dtext_000N_2001.E14" cui="C1517741" name="Last" semtypes="qlco" text="last" score="766" negated="false" begin="240" end="244" />
+  <Entity id="Dtext_000N_2001.E15" cui="C0332152" name="Before" semtypes="tmco" text="pre" score="766" negated="false" begin="247" end="250" />
+  <Entity id="Dtext_000N_2001.E16" cui="C0454729" name="Natal" semtypes="geoa" text="natal" score="766" negated="false" begin="251" end="256" />
+  <Entity id="Dtext_000N_2001.E17" cui="C0545082" name="Visit" semtypes="bhvr" text="visits" score="766" negated="false" begin="257" end="263" />
+  <Entity id="Dtext_000N_2001.E18" cui="C0043227" name="Work" semtypes="ocac" text="work" score="1000" negated="false" begin="271" end="275" />
+ </Utterance>
+ <Utterance id="Dtext_000N_2001.tx.4" section="tx" number="4" begin="277" end="355" text="Her past medical history is notable for obesity and type I diabetes mellitus.">
+  <Entity id="Dtext_000N_2001.E19" cui="C0262926" name="Medical History" semtypes="fndg" text="past medical history" score="1000" negated="false" begin="281" end="301" />
+  <Entity id="Dtext_000N_2001.E20" cui="C4288581" name="Notable" semtypes="qlco" text="notable" score="1000" negated="false" begin="305" end="312" />
+  <Entity id="Dtext_000N_2001.E21" cui="C0028754" name="Obesity" semtypes="dsyn" text="obesity" score="1000" negated="false" begin="317" end="324" />
+  <Entity id="Dtext_000N_2001.E22" cui="C0011854" name="Diabetes Mellitus, Insulin-Dependent" semtypes="dsyn" text="type I diabetes mellitus" score="1000" negated="false" begin="329" end="353" />
+ </Utterance>
+ <Utterance id="Dtext_000N_2001.tx.5" section="tx" number="5" begin="355" end="470" text="Her family history is notable for ovarian cancer in her mother and endometrial cancer in her maternal grandmother.">
+  <Entity id="Dtext_000N_2001.E23" cui="C0241889" name="Family history" semtypes="fndg" text="family history" score="1000" negated="false" begin="359" end="373" />
+  <Entity id="Dtext_000N_2001.E24" cui="C4288581" name="Notable" semtypes="qlco" text="notable" score="1000" negated="false" begin="377" end="384" />
+  <Entity id="Dtext_000N_2001.E25" cui="C0029925" name="Ovarian Carcinoma" semtypes="neop" text="ovarian cancer" score="1000" negated="false" begin="389" end="403" />
+  <Entity id="Dtext_000N_2001.E26" cui="C0007103" name="Malignant neoplasm of endometrium" semtypes="neop" text="endometrial cancer" score="1000" negated="false" begin="422" end="440" />
+  <Entity id="Dtext_000N_2001.E27" cui="C1273525" name="Maternal grandmother" semtypes="famg" text="maternal grandmother" score="1000" negated="false" begin="448" end="468" />
+  <Predication id="Dtext_000N_2001.P2" negated="false" inferred="false">
+   <Subject maxDist="5" dist="1" entityID="Dtext_000N_2001.E26" relSemType="neop" />
+   <Predicate type="PROCESS_OF" indicatorType="PREP" begin="441" end="443" />
+   <Object maxDist="1" dist="1" entityID="Dtext_000N_2001.E27" relSemType="humn" />
+  </Predication>
+ </Utterance>
+ <Utterance id="Dtext_000N_2001.tx.6" section="tx" number="6" begin="470" end="593" text="On examination, her uterus is at 16 weeks in size and she has mild tenderness to palpation on her right suprapubic region.">
+  <Entity id="Dtext_000N_2001.E28" cui="C4321457" name="Examination" semtypes="acty" text="examination" score="1000" negated="false" begin="473" end="484" />
+  <Entity id="Dtext_000N_2001.E29" cui="C0042149" name="Uterus" semtypes="bpoc" text="uterus" score="1000" negated="false" begin="490" end="496" />
+  <Entity id="Dtext_000N_2001.E30" cui="C0439230" name="week" semtypes="tmco" text="weeks" score="861" negated="false" begin="506" end="511" />
+  <Entity id="Dtext_000N_2001.E31" cui="C0456389" name="size" semtypes="spco" text="size" score="1000" negated="false" begin="515" end="519" />
+  <Entity id="Dtext_000N_2001.E32" cui="C0234233" name="Sore to touch" semtypes="sosy" text="tenderness" score="861" negated="false" begin="537" end="547" />
+  <Entity id="Dtext_000N_2001.E33" cui="C0030247" name="Palpation" semtypes="diap" text="palpation" score="1000" negated="false" begin="551" end="560" />
+  <Entity id="Dtext_000N_2001.E34" cui="C0205090" name="Right" semtypes="spco" text="right" score="901" negated="false" begin="568" end="573" />
+  <Entity id="Dtext_000N_2001.E35" cui="C0230189" name="Hypogastric region" semtypes="blor" text="suprapubic region" score="901" negated="false" begin="574" end="591" />
+  <Predication id="Dtext_000N_2001.P3" negated="false" inferred="false">
+   <Subject maxDist="1" dist="1" entityID="Dtext_000N_2001.E35" relSemType="blor" />
+   <Predicate type="LOCATION_OF" indicatorType="PREP" begin="561" end="563" />
+   <Object maxDist="6" dist="1" entityID="Dtext_000N_2001.E33" relSemType="diap" />
+  </Predication>
+ </Utterance>
+ <Utterance id="Dtext_000N_2001.tx.7" section="tx" number="7" begin="593" end="684" text="A transvaginal ultrasound in this patient would most likely reveal which of the following?">
+  <Entity id="Dtext_000N_2001.E36" cui="C0203418" name="Transvaginal echography" semtypes="diap" text="transvaginal ultrasound" score="1000" negated="false" begin="595" end="618" />
+  <Entity id="Dtext_000N_2001.E37" cui="C0030705" name="Patients" semtypes="podg" text="patient" score="1000" negated="false" begin="627" end="634" />
+  <Entity id="Dtext_000N_2001.E38" cui="C0205393" name="Most" semtypes="qnco" text="most" score="1000" negated="false" begin="641" end="645" />
+  <Entity id="Dtext_000N_2001.E39" cui="C0231290" name="Status post" semtypes="tmco" text="following" score="1000" negated="false" begin="673" end="682" />
+ </Utterance>
+ <Utterance id="Dtext_000N_2001.tx.8" section="tx" number="8" begin="684" end="897" text="Option: {&#39;A&#39;: &#39;Fetal parts&#39;, &#39;B&#39;: &#39;Intrauterine cystic mass&#39;, &#39;C&#39;: &#39;Large intramural masses&#39;, &#39;D&#39;: &#39;Non-viable fetus&#39;, &#39;E&#39;: &#39;Unilateral ovarian cyst&#39;} Please explain your answer and why the other options are wrong">
+  <Entity id="Dtext_000N_2001.E40" cui="C1518601" name="Options" semtypes="ftcn" text="Option" score="1000" negated="false" begin="684" end="690" />
+  <Entity id="Dtext_000N_2001.E41" cui="C1760003" name="Fetal part" semtypes="emst" text="Fetal parts" score="1000" negated="false" begin="699" end="710" />
+  <Entity id="Dtext_000N_2001.E42" cui="C0205207" name="Cystic" semtypes="qlco" text="cystic" score="901" negated="false" begin="732" end="738" />
+  <Entity id="Dtext_000N_2001.E43" cui="C0745390" name="Intrauterine Mass" semtypes="dsyn" text="Intrauterine cystic mass" score="901" negated="false" begin="719" end="743" />
+  <Entity id="Dtext_000N_2001.E44" cui="C0205102" name="Internal" semtypes="spco" text="intramural" score="890" negated="false" begin="758" end="768" />
+  <Entity id="Dtext_000N_2001.E45" cui="C1881358" name="Large Mass" semtypes="fndg" text="Large intramural masses" score="890" negated="false" begin="752" end="775" />
+  <Entity id="Dtext_000N_2001.E46" cui="C1518422" name="Negation" semtypes="ftcn" text="Non" score="851" negated="false" begin="784" end="787" />
+  <Entity id="Dtext_000N_2001.E47" cui="C0443348" name="Viable" semtypes="qlco" text="viable" score="851" negated="false" begin="788" end="794" />
+  <Entity id="Dtext_000N_2001.E48" cui="C0015965" name="Fetus" semtypes="emst" text="fetus" score="851" negated="false" begin="795" end="800" />
+  <Entity id="Dtext_000N_2001.E49" cui="C0205092" name="Unilateral" semtypes="spco" text="Unilateral" score="901" negated="false" begin="809" end="819" />
+  <Entity id="Dtext_000N_2001.E50" cui="C0029927" name="Ovarian Cysts" semtypes="dsyn" text="ovarian cyst" score="901" negated="false" begin="820" end="832" />
+  <Entity id="Dtext_000N_2001.E51" cui="C1706817" name="Response (statement)" semtypes="inpr" text="answer" score="1000" negated="false" begin="855" end="861" />
+  <Entity id="Dtext_000N_2001.E52" cui="C1518601" name="Options" semtypes="ftcn" text="options" score="1000" negated="false" begin="880" end="887" />
+  <Entity id="Dtext_000N_2001.E53" cui="C3827420" name="Wrong" semtypes="qlco" text="wrong" score="1000" negated="false" begin="892" end="897" />
+ </Utterance>
+</Document>
+</SemRepAnnotation>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SemRepAnnotation PUBLIC "-//NLM//DTD SemRep Output//EN" "http://semrep.nlm.nih.gov/DTD/SemRepXML_v1.8.dtd">
+<SemRepAnnotation>
+ <Document id="Dtext_000N_878" text="ERROR [3748]: USMLE question: A 68-year-old woman is brought to the emergency department with intense abdominal pain for the past 2 hours. She has had 1 episode of bloody diarrhea recently. She has an 18-year history of diabetes mellitus. She was diagnosed with hypertension and ischemic heart disease 6 years ago. She is fully alert and oriented. Her temperature is 37.5&#194;&#176;C (99.5&#194;&#176;F), blood pressure is 145/90 mm Hg, pulse is 78/min, and respirations are 14/min. Abdominal examination shows mild generalized abdominal tenderness without guarding or rebound tenderness. An abdominal plain X-ray shows no abnormalities. Abdominal CT reveals colonic wall thickening and pericolonic fat stranding in the splenic curvature. Bowel rest, intravenous hydration, and IV antibiotics are initiated. Which of the following is the most important diagnostic evaluation at this time? Option: {&#39;A&#39;: &#39;Angiography&#39;, &#39;B&#39;: &#39;Gastrografin-enhanced X-ray&#39;, &#39;C&#39;: &#39;Inpatient observation&#39;, &#39;D&#39;: &#39;Laparotomy&#39;, &#39;E&#39;: &#39;Sigmoidoscopy&#39;} Please explain your answer and why the other options are wrong" >
+ <Utterance id="Dtext_000N_878.tx.1" section="tx" number="1" begin="0" end="139" text="ERROR [3748]: USMLE question: A 68-year-old woman is brought to the emergency department with intense abdominal pain for the past 2 hours.">
+  <Entity id="Dtext_000N_878.E1" cui="C0743559" name="error" semtypes="qlco" text="ERROR" score="1000" negated="false" begin="0" end="5" />
+  <Entity id="Dtext_000N_878.E2" cui="C0439234" name="year" semtypes="tmco" text="year" score="833" negated="false" begin="35" end="39" />
+  <Entity id="Dtext_000N_878.E3" cui="C0580836" name="Old" semtypes="tmco" text="old" score="833" negated="false" begin="40" end="43" />
+  <Entity id="Dtext_000N_878.E4" cui="C0043210" name="Woman" semtypes="popg" text="woman" score="833" negated="false" begin="44" end="49" />
+  <Entity id="Dtext_000N_878.E5" cui="C1704729" name="Department" semtypes="orgt" text="department" score="888" negated="false" begin="78" end="88" />
+  <Entity id="Dtext_000N_878.E6" cui="C0522510" name="With intensity" semtypes="qlco" text="intense" score="901" negated="false" begin="94" end="101" />
+  <Entity id="Dtext_000N_878.E7" cui="C0000737" name="Abdominal Pain" semtypes="sosy" text="abdominal pain" score="901" negated="false" begin="102" end="116" />
+  <Entity id="Dtext_000N_878.E8" cui="C4284302" name="EHD1 wt Allele" semtypes="gngm" text="past" score="802" negated="false" begin="125" end="129" />
+  <Entity id="Dtext_000N_878.E9" cui="C0439227" name="Hour" semtypes="tmco" text="hours" score="802" negated="false" begin="132" end="137" />
+ </Utterance>
+ <Utterance id="Dtext_000N_878.tx.2" section="tx" number="2" begin="139" end="190" text="She has had 1 episode of bloody diarrhea recently.">
+  <Entity id="Dtext_000N_878.E10" cui="C0151594" name="Hemorrhagic diarrhea" semtypes="dsyn" text="bloody diarrhea" score="901" negated="false" begin="164" end="179" />
+  <Entity id="Dtext_000N_878.E11" cui="C0332185" name="Recent" semtypes="tmco" text="recently" score="901" negated="false" begin="180" end="188" />
+ </Utterance>
+ <Utterance id="Dtext_000N_878.tx.3" section="tx" number="3" begin="190" end="239" text="She has an 18-year history of diabetes mellitus.">
+  <Entity id="Dtext_000N_878.E12" cui="C0439234" name="year" semtypes="tmco" text="year" score="790" negated="false" begin="204" end="208" />
+  <Entity id="Dtext_000N_878.E13" cui="C0019664" name="History" semtypes="ocdi" text="history" score="790" negated="false" begin="209" end="216" />
+  <Entity id="Dtext_000N_878.E14" cui="C0011849" name="Diabetes Mellitus" semtypes="dsyn" text="diabetes mellitus" score="1000" negated="false" begin="220" end="237" />
+ </Utterance>
+ <Utterance id="Dtext_000N_878.tx.4" section="tx" number="4" begin="239" end="315" text="She was diagnosed with hypertension and ischemic heart disease 6 years ago.">
+  <Entity id="Dtext_000N_878.E15" cui="C0020538" name="Hypertensive disease" semtypes="dsyn" text="hypertension" score="1000" negated="false" begin="262" end="274" />
+  <Entity id="Dtext_000N_878.E16" cui="C0010054" name="Coronary Arteriosclerosis" semtypes="dsyn" text="ischemic heart disease" score="817" negated="false" begin="279" end="301" />
+  <Entity id="Dtext_000N_878.E17" cui="C0439234" name="year" semtypes="tmco" text="years" score="817" negated="false" begin="304" end="309" />
+ </Utterance>
+ <Utterance id="Dtext_000N_878.tx.5" section="tx" number="5" begin="315" end="348" text="She is fully alert and oriented.">
+ </Utterance>
+ <Utterance id="Dtext_000N_878.tx.6" section="tx" number="6" begin="348" end="464" text="Her temperature is 37.5&#194;&#176;C (99.5&#194;&#176;F), blood pressure is 145/90 mm Hg, pulse is 78/min, and respirations are 14/min.">
+  <Entity id="Dtext_000N_878.E18" cui="C0039476" name="Temperature" semtypes="qnco" text="temperature" score="1000" negated="false" begin="352" end="363" />
+  <Entity id="Dtext_000N_878.E19" cui="C0005823" name="Blood Pressure" semtypes="orgf" text="blood pressure" score="1000" negated="false" begin="386" end="400" />
+  <Entity id="Dtext_000N_878.E20" cui="C0439475" name="mmHg" semtypes="qnco" text="mm Hg" score="812" negated="false" begin="411" end="416" />
+  <Entity id="Dtext_000N_878.E21" cui="C0702093" name="Per Minute" semtypes="tmco" text="min" score="861" negated="false" begin="430" end="433" />
+  <Entity id="Dtext_000N_878.E22" cui="C0035203" name="Respiration" semtypes="phsf" text="respirations" score="1000" negated="false" begin="439" end="451" />
+  <Entity id="Dtext_000N_878.E23" cui="C0702093" name="Per Minute" semtypes="tmco" text="min" score="861" negated="false" begin="459" end="462" />
+ </Utterance>
+ <Utterance id="Dtext_000N_878.tx.7" section="tx" number="7" begin="464" end="570" text="Abdominal examination shows mild generalized abdominal tenderness without guarding or rebound tenderness.">
+  <Entity id="Dtext_000N_878.E24" cui="C0000726" name="Abdomen" semtypes="blor" text="Abdominal" score="888" negated="false" begin="464" end="473" />
+  <Entity id="Dtext_000N_878.E25" cui="C4321457" name="Examination" semtypes="acty" text="examination" score="888" negated="false" begin="474" end="485" />
+  <Entity id="Dtext_000N_878.E26" cui="C0302540" name="Generalized abdominal tenderness" semtypes="sosy" text="generalized abdominal tenderness" score="923" negated="false" begin="497" end="529" />
+  <Entity id="Dtext_000N_878.E27" cui="C0427198" name="Protective muscle spasm" semtypes="fndg" text="guarding" score="1000" negated="false" begin="538" end="546" />
+  <Entity id="Dtext_000N_878.E28" cui="C0234246" name="Rebound tenderness" semtypes="sosy" text="rebound tenderness" score="1000" negated="false" begin="550" end="568" />
+ </Utterance>
+ <Utterance id="Dtext_000N_878.tx.8" section="tx" number="8" begin="570" end="619" text="An abdominal plain X-ray shows no abnormalities.">
+  <Entity id="Dtext_000N_878.E29" cui="C0034573" name="Radiography, Abdominal" semtypes="diap" text="abdominal plain X-ray" score="923" negated="false" begin="573" end="594" />
+ </Utterance>
+ <Utterance id="Dtext_000N_878.tx.9" section="tx" number="9" begin="619" end="720" text="Abdominal CT reveals colonic wall thickening and pericolonic fat stranding in the splenic curvature.">
+  <Entity id="Dtext_000N_878.E30" cui="C0000726" name="Abdomen" semtypes="blor" text="Abdominal" score="888" negated="false" begin="619" end="628" />
+  <Entity id="Dtext_000N_878.E31" cui="C0734007" name="Wall of colon" semtypes="bpoc" text="colonic wall" score="901" negated="false" begin="640" end="652" />
+  <Entity id="Dtext_000N_878.E32" cui="C0205400" name="Thickened" semtypes="fndg" text="thickening" score="901" negated="false" begin="653" end="663" />
+  <Entity id="Dtext_000N_878.E33" cui="C0442135" name="Paracolic" semtypes="spco" text="pericolonic" score="840" negated="false" begin="668" end="679" />
+  <Entity id="Dtext_000N_878.E34" cui="C0030234" name="Palmitic Acid" semtypes="bacs,orch" text="fat" score="840" negated="false" begin="680" end="683" />
+  <Entity id="Dtext_000N_878.E35" cui="C1704972" name="Genomic Orientation" semtypes="spco" text="stranding" score="840" negated="false" begin="684" end="693" />
+  <Entity id="Dtext_000N_878.E36" cui="C0037993" name="Spleen" semtypes="bpoc" text="splenic" score="694" negated="false" begin="701" end="708" />
+  <Predication id="Dtext_000N_878.P1" negated="false" inferred="false">
+   <Subject maxDist="0" dist="0" entityID="Dtext_000N_878.E31" relSemType="bpoc" />
+   <Predicate type="LOCATION_OF" indicatorType="MOD_HEAD" begin="640" end="663" />
+   <Object maxDist="0" dist="0" entityID="Dtext_000N_878.E32" relSemType="fndg" />
+  </Predication>
+ </Utterance>
+ <Utterance id="Dtext_000N_878.tx.10" section="tx" number="10" begin="720" end="789" text="Bowel rest, intravenous hydration, and IV antibiotics are initiated.">
+  <Entity id="Dtext_000N_878.E37" cui="C0021853" name="Intestines" semtypes="bpoc" text="Bowel" score="888" negated="false" begin="720" end="725" />
+  <Entity id="Dtext_000N_878.E38" cui="C0035253" name="Rest" semtypes="dora" text="rest" score="888" negated="false" begin="726" end="730" />
+  <Entity id="Dtext_000N_878.E39" cui="C0348016" name="Intravenous" semtypes="spco" text="intravenous" score="888" negated="false" begin="732" end="743" />
+  <Entity id="Dtext_000N_878.E40" cui="C4520800" name="Hydration" semtypes="phsf" text="hydration" score="888" negated="false" begin="744" end="753" />
+  <Entity id="Dtext_000N_878.E41" cui="C0003232" name="Antibiotics" semtypes="antb" text="antibiotics" score="888" negated="false" begin="762" end="773" />
+ </Utterance>
+ <Utterance id="Dtext_000N_878.tx.11" section="tx" number="11" begin="789" end="870" text="Which of the following is the most important diagnostic evaluation at this time?">
+  <Entity id="Dtext_000N_878.E42" cui="C0231290" name="Status post" semtypes="tmco" text="following" score="1000" negated="false" begin="802" end="811" />
+  <Entity id="Dtext_000N_878.E43" cui="C0205393" name="Most" semtypes="qnco" text="most" score="861" negated="false" begin="819" end="823" />
+  <Entity id="Dtext_000N_878.E44" cui="C3898777" name="Important" semtypes="qlco" text="important" score="861" negated="false" begin="824" end="833" />
+  <Entity id="Dtext_000N_878.E45" cui="C0431080" name="Diagnostic assessment" semtypes="diap" text="diagnostic evaluation" score="861" negated="false" begin="834" end="855" />
+  <Entity id="Dtext_000N_878.E46" cui="C0040223" name="Time" semtypes="tmco" text="time" score="1000" negated="false" begin="864" end="868" />
+ </Utterance>
+ <Utterance id="Dtext_000N_878.tx.12" section="tx" number="12" begin="870" end="1068" text="Option: {&#39;A&#39;: &#39;Angiography&#39;, &#39;B&#39;: &#39;Gastrografin-enhanced X-ray&#39;, &#39;C&#39;: &#39;Inpatient observation&#39;, &#39;D&#39;: &#39;Laparotomy&#39;, &#39;E&#39;: &#39;Sigmoidoscopy&#39;} Please explain your answer and why the other options are wrong">
+  <Entity id="Dtext_000N_878.E47" cui="C1518601" name="Options" semtypes="ftcn" text="Option" score="1000" negated="false" begin="870" end="876" />
+  <Entity id="Dtext_000N_878.E48" cui="C0002978" name="angiogram" semtypes="diap" text="Angiography" score="1000" negated="false" begin="885" end="896" />
+  <Entity id="Dtext_000N_878.E49" cui="C0733796" name="Gastrografin" semtypes="irda,orch,phsu" text="Gastrografin" score="861" negated="false" begin="905" end="917" />
+  <Entity id="Dtext_000N_878.E50" cui="C2349975" name="Enhance (action)" semtypes="acty" text="enhanced" score="861" negated="false" begin="918" end="926" />
+  <Entity id="Dtext_000N_878.E51" cui="C0034571" name="roentgenographic" semtypes="ftcn" text="X-ray" score="861" negated="false" begin="927" end="932" />
+  <Entity id="Dtext_000N_878.E52" cui="C0021562" name="inpatient" semtypes="podg" text="Inpatient" score="888" negated="false" begin="941" end="950" />
+  <Entity id="Dtext_000N_878.E53" cui="C1964257" name="Observation - diagnostic procedure" semtypes="diap" text="observation" score="888" negated="false" begin="951" end="962" />
+  <Entity id="Dtext_000N_878.E54" cui="C0023038" name="Laparotomy" semtypes="topp" text="Laparotomy" score="1000" negated="false" begin="971" end="981" />
+  <Entity id="Dtext_000N_878.E55" cui="C1706817" name="Response (statement)" semtypes="inpr" text="answer" score="1000" negated="false" begin="1026" end="1032" />
+  <Entity id="Dtext_000N_878.E56" cui="C1518601" name="Options" semtypes="ftcn" text="options" score="1000" negated="false" begin="1051" end="1058" />
+  <Entity id="Dtext_000N_878.E57" cui="C3827420" name="Wrong" semtypes="qlco" text="wrong" score="1000" negated="false" begin="1063" end="1068" />
+ </Utterance>
+</Document>
+</SemRepAnnotation>
