@@ -6,7 +6,9 @@ The resources are present under the "data" directory.
 
 The semrep annotations consisting of UMLS concepts and semantic predications are present under "semrep" directory.
 
-The codebase for setting up the Potato annotation platform to replicate our span-labeling annotation setup in present under "prolific-potato-annotation" directory
+The codebase for setting up the Potato annotation platform to replicate our span-labeling annotation setup in present under "prolific-potato-annotation" directory.
+
+The "notebooks" folder contains Jupyter notebooks for easy exploration of proposed dataset and annotations.
 
 ## Resources Overview
 
